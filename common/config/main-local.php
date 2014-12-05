@@ -17,8 +17,8 @@ return [
             'useFileTransport' => true,
         ],
     ],
-	'bootstrap' => ['gii'],
-    'modules' => [
+        'bootstrap' => ['gii'],
+        'modules' => [
         'gii' => 'yii\gii\Module',
         // ...
     ],

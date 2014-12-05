@@ -140,7 +140,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
                 <nav class="primary_nav primary_nav1 clearfix border_b_c">
                     <ul>
                                                 <li>
-                            <a href="index.php?r=task/release" class="selected"><span class="icon32 task_model">单人悬赏</span><em>单人悬赏</em><span class="arrow_b"></span></a>
+                            <a href="index.php?r=task/release" ><span class="icon32 task_model">单人悬赏</span><em>单人悬赏</em><span class="arrow_b"></span></a>
                         </li>
                                                 <li>
                             <a href="index.php?r=task/count" ><span class="icon32 task_model">计件悬赏</span><em>计件悬赏</em><span class="arrow_b"></span></a>
@@ -152,7 +152,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
                             <a href="index.php?r=task/tender" ><span class="icon32 task_model">普通招标</span><em>普通招标</em><span class="arrow_b"></span></a>
                         </li>
                                                 <li>
-                            <a href="index.php?r=task/deposit" ><span class="icon32 task_model">订金招标</span><em>订金招标</em><span class="arrow_b"></span></a>
+                            <a href="index.php?r=task/deposit" class="selected"><span class="icon32 task_model">订金招标</span><em>订金招标</em><span class="arrow_b"></span></a>
                         </li>
                                             
                     </ul>
@@ -167,13 +167,12 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 <!--end 任务模式-->
                 <!--任务模式下部内容-->
                 <div class="clearfix">
-                     <!--左边部分-->
- <!--  帮助 start -->
+                     <!--  帮助 start -->
     <div class="help_center" >
      	
      	<div id="help_center" class="help_detail hidden">
-     		<h3>什么是单人悬赏？</h3>
-        <p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong> 单人悬赏常用于发布一些时间短，需要创意型的任务，例如给宝宝起名，店铺起名，设计网站logo，贺卡设计，找人排队跑腿，写广告语，策划活动等等是的吧</strong></p></p>
+     		<h3>什么是订金招标？</h3>
+        <p><div class="mod-top"><div class="card-summary nslog-area" data-nslog-type="72"><div class="card-summary-content"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 订金招标是指托管任务订金，选择应标威客完成任务的任务类型。任务采用选择威客完成任务的方式，避免了全款悬赏任务威客作品浪费的现象。<br /></p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 订金招标流程较复杂，用时较长，但效果较好且能有效防止诈骗，特别适合大中型任务的发布这些任务可以考虑使用订金招标：VI/SI等大型设计项目，长期的画册设计外包，多页面的网页设计，电子杂志设计，网站程序开发，软件开发，音视频拍摄/调整，视频短片，大型翻译…… <br /></p><p>　<strong>任务流程：雇主发布订金招标任务并托管任务款后，等待威客来参加任务。威客可以通过搜索等方式查看到该订金招标任务，并依据任务雇主的需求，提出解决方案。雇主查看到最合适最优秀的方案后，即可邀请提交此方案的威客写任务合同。双方对任务合同协调无异议后，即可确定该合同生效，并进入任务实施阶段。分期发放任务赏金。订金招标任务成功结束</strong>。<br /></p></div></div></div><br /></p>
       	</div>
   
       	<div class="help_down ">
@@ -181,18 +180,14 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 </div>
 </div>
  <!--  帮助 end -->
- <!--提示信息-->
-   <!-- <div class="messages m_infor">
-     <span class="icon16">info</span>单人悬赏常用于发布一些时间短，需要创意型的任务，例如给宝宝起名，店铺起名，设计网站logo，贺卡设计       <a href="javascript:;" class="close">&times;</a>
-   </div> -->
-   
-  <!--end 提示信息-->
-  <!--from表单 start-->
-   <div class="form_box clearfix border_n">
-   <!--  <div class="form_tip">
-        <h5 class="font14b t_c" style="color:#7caf22">单人悬赏任务流程图</h5>-->
-        <!--单人悬赏-single-->
- <!--<div class="min_step all_8 step_orange mb_10 ml_30">
+ <!--左边部分-->
+
+
+ <!--from表单 start-->
+   		<div class="form_box clearfix box border_n">
+      		<!-- <div class="form_tip">
+        		<h5 class="font14b t_c" style="color:#7caf22">订金招标任务流程图</h5>
+<div class="min_step all_8 step_orange mb_10 ml_30">
 <ul class="clearfix">
 <li class>
 <div class="icon"></div>
@@ -216,7 +211,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 
 <li>
 <div class="icon"></div>
-<span>公示</span>
+<span>托管赏金</span>
 </li>
 
 <li>
@@ -236,56 +231,73 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 
 </ul>
 </div>
-      </div>-->
-     
- 
-  <form action="index.php/release_do" method="post" name="frm_step1" id="frm_step1">
-  	<input type="hidden" name="step1" value="step1">
+      		</div> -->
+  		<form action="index.php?do=release&pub_mode=professional&t_id=&model_id=5&r_step=step1" method="post" name="frm_step1" id="frm_step1">
+  			<input type="hidden" name="step1" value="step1"> 
+  			<input type="hidden" name="formhash" value="5d6815">
+<input type="hidden" name="txt_task_cash" value="20">
 <input type="hidden" name="min" value="2014-12-07" id="min">
-<input type="hidden" name="max" value="" id="max">
-  	<input type="hidden" name="formhash" value="679ee3">
-
-       <div class="rowElem clearfix">
-          <label class="grid_8"><strong>您的预算：</strong></label>
-           <div class="grid_12">
-              <input name="txt_task_cash" size="30" value="800" type="text" id="txt_task_cash" msgArea="span_task_cash"  title="任务预算,不支持小数,最小金额为80元" onkeyup="clearstr(this)"
-    limit="required:true;type:float;between:80-" msg="任务预算不得为空,最小金额为80元" onblur="getMaxDday(this.value)" />
+        <input type="hidden" name="max" value="2015-03-15" id="max">	
+        		<div class="rowElem clearfix po_re">
+          			<label class="grid_8"><strong>您的预算：</strong></label>
+           			<div class="grid_12">
+           			<select name="task_cash_cove" id="task_cash_cove"  limit="required:truet;ype:int"  msg="任务预算范围不能为空" title="请选中任务预算范围" msgArea="span_cash_cove" style="width:190px;">
+       				<option value="">---请选择---</option>
+<option value="41"  >100.00元-1000.00元</option>
+<option value="29"  >1000.00元-2000.00元</option>
+<option value="30"  >2000.00元-5000.00元</option>
+<option value="31"  >5000.00元-10000.00元</option>
+<option value="32"  >10000.00元-20000.00元</option>
+<option value="42"  >30000.00元-40000.00元</option>
+</select>
 <span class="ml_5">元</span>
-<span id="span_task_cash" class="ml_5"></span>
-           </div>
-        </div>
-
-        <div class="rowElem clearfix">
-          <label class="grid_8"><strong>交稿截止日期：</strong></label>
-            <div class="grid_12">
-
-<input name="txt_task_day" onclick="showcalendar(event, this, 0)"
-size="30"
-value="2014-12-07"
-type="text" id="txt_task_day" min_day="2"
-title="预计的任务持续天数,当前预算允许最小天数为:2天,最大截止时间："
-msgArea="span_task_day" onkeyup="clearstr(this)"
-limit="required:true;type:date;than:min;less:max"
-msg="任务时间周期不在许可范围内" max="" /><span class="ml_5">年-月-日</span> <span id="span_task_day" class="ml_5"></span>
-
+<span id="span_cash_cove"  class="ml_5"></span>			
+           			</div>
+        		</div>
+              <div class="rowElem clearfix">
+              <label class="grid_8"><strong>竞标截止日期：</strong></label>
+              <div class="grid_12">
+       
+               <input name="txt_task_day"   onclick="showcalendar(event, this, 0)" size="30" value="2015-03-15" type="text" id="txt_task_day" title="预计的任务持续天数,当前预算允许最小天数为:2天,最大截止时间：2015-03-15 " msgArea="span_task_day" onkeyup="clearstr(this)"
+   	limit="required:true;type:date;than:min;less:max" msg="任务时间周期不在许可范围内" max=""/><!--between:--->
+            	<span class="ml_5">年-月-日</span>
+ <span id="span_task_day"  class="ml_5"></span>
+ 
 </div>
         </div>
-<div class="rowElem clearfix po_re">
-           <label class="grid_8"><strong>赏金分配：</strong></label>
-             <div class="grid_6"><strong>单人中标</strong></div>
-        </div>
-     </form>
-    </div>
-    <!--from表单 end-->
-    <div class="step_button"> <button type="submit" name="is_submit" onclick="stepCheck();" class="big button">下一步</button></div>
-   
- 
+        		<div class="rowElem clearfix">
+           			<label class="grid_8"><strong>赏金分配：</strong></label>
+             		<div class="grid_6"><strong>单人中标</strong></div>
+        		</div>
+     		</form>
+   		 </div>
+<!--from表单 end-->
+    	<div class="step_button"> <button type="submit" name="is_submit" onclick="stepCheck_ext();" class="big button">下一步</button></div>
+
 <!--end 左边部分-->
 
-   
+<!--右边部分-->
+<!-- <div class="grid_7 alpha omega">
+<div class=" prefix_1 suffix_1 pt_20">
+    	<h3 class="font14b">什么是订金招标？ </h3>
+        <p><!--{eval echo kekezu::filter_input(&lt;div class="mod-top"&gt;&lt;div class="card-summary nslog-area" data-nslog-type="72"&gt;&lt;div class="card-summary-content"&gt;&lt;p&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 订金招标是指托管任务订金，选择应标威客完成任务的任务类型。任务采用选择威客完成任务的方式，避免了全款悬赏任务威客作品浪费的现象。&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 订金招标流程较复杂，用时较长，但效果较好且能有效防止诈骗，特别适合大中型任务的发布这些任务可以考虑使用订金招标：VI/SI等大型设计项目，长期的画册设计外包，多页面的网页设计，电子杂志设计，网站程序开发，软件开发，音视频拍摄/调整，视频短片，大型翻译…… &lt;br /&gt;&lt;/p&gt;&lt;p&gt;　&lt;strong&gt;任务流程：雇主发布订金招标任务并托管任务款后，等待威客来参加任务。威客可以通过搜索等方式查看到该订金招标任务，并依据任务雇主的需求，提出解决方案。雇主查看到最合适最优秀的方案后，即可邀请提交此方案的威客写任务合同。双方对任务合同协调无异议后，即可确定该合同生效，并进入任务实施阶段。分期发放任务赏金。订金招标任务成功结束&lt;/strong&gt;。&lt;br /&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;br /&gt;)}</p>
+    </div>
+</div> -->
+<!--end 右边部分-->
 <script type="text/javascript">
 In('calendar');
-</script>                    <!--end 任务模式下部内容-->
+function stepCheck_ext(){
+var slt_val = $("#task_cash_cove").val(); 
+if(!slt_val){
+$("#span_cash_cove").addClass("msg msg_error").html("<i></i><span>请选择预算区间</span>");	return false;		
+}else{
+$("#span_cash_cove").removeClass("msg msg_error").html(" ");
+}
+stepCheck();		
+}
+</script>
+ 
+                    <!--end 任务模式下部内容-->
                 </div>
                 <!--end 步骤下所有内容-->
             </div>
@@ -298,11 +310,11 @@ In('calendar');
 </div>
 <script type="text/javascript" src="resource/js/system/release.js"></script>
 <script type="text/javascript">
-    var model_id = parseInt("1") + 0;
-    var uid = parseInt("1") + 0;
+    var model_id = parseInt("5") + 0;
+    var uid = parseInt("11") + 0;
     var r_step = "step1";
-    var basic_url = "index.php?do=release&pub_mode=professional&t_id=&model_id=1&r_step=step1";
-    var min_day = parseInt("2");
+    var basic_url = "index.php?do=release&pub_mode=professional&t_id=&model_id=5&r_step=step1";
+    var min_day = parseInt("");
 
 In('ajaxfileupload','form');
 </script>

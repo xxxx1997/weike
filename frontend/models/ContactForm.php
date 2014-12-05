@@ -30,7 +30,7 @@ class ContactForm extends Model
             ['verifyCode', 'captcha'],
         ];
     }
-
+  
     /**
      * @inheritdoc
      */
