@@ -71,7 +71,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 
 
 </head>
-    <body id="index">
+   
 
 <div class="blue_style" id="wrapper">
 
@@ -386,7 +386,7 @@ In('header_top','custom','lavalamp','tipsy','autoIMG','slides');
 <!--[if IE 6]></div><![endif]-->
 <!--[if IE 7]></div><![endif]-->
 <!--[if IE 8]></div><![endif]-->
-</body>
+
 </html>
 
 
