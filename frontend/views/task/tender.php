@@ -71,7 +71,7 @@ In.add('lazy',{path:"resource/js/system/lazy.js",type:'js'});
 In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 </script>
 </head>
-    <body id="release">
+<body id="release">
 <div class="wrapper">
     <!--页面头部-->
     <header class="clearfix page_header">
@@ -118,7 +118,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
                                 <div class="step step3 ">
                     <span class="icon32 pub">3</span>
                     <strong>确认清单并支付</strong>
-                    列表清单并支付任务赏金                </div>
+                    列表清单并支付信息发布服务费用                </div>
                                 <div class="step step4 ">
                     <span class="icon32 pub">4</span>
                     <strong>发布成功</strong>
@@ -140,7 +140,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
                 <nav class="primary_nav primary_nav1 clearfix border_b_c">
                     <ul>
                                                 <li>
-                            <a href="index.php?r=task/release" class="selected"><span class="icon32 task_model">单人悬赏</span><em>单人悬赏</em><span class="arrow_b"></span></a>
+                            <a href="index.php?r=task/release" ><span class="icon32 task_model">单人悬赏</span><em>单人悬赏</em><span class="arrow_b"></span></a>
                         </li>
                                                 <li>
                             <a href="index.php?r=task/count" ><span class="icon32 task_model">计件悬赏</span><em>计件悬赏</em><span class="arrow_b"></span></a>
@@ -149,7 +149,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
                             <a href="index.php?r=task/double" ><span class="icon32 task_model">多人悬赏</span><em>多人悬赏</em><span class="arrow_b"></span></a>
                         </li>
                                                 <li>
-                            <a href="index.php?r=task/tender" ><span class="icon32 task_model">普通招标</span><em>普通招标</em><span class="arrow_b"></span></a>
+                            <a href="index.php?r=task/tender" class="selected"><span class="icon32 task_model">普通招标</span><em>普通招标</em><span class="arrow_b"></span></a>
                         </li>
                                                 <li>
                             <a href="index.php?r=task/deposit" ><span class="icon32 task_model">订金招标</span><em>订金招标</em><span class="arrow_b"></span></a>
@@ -168,12 +168,12 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
                 <!--任务模式下部内容-->
                 <div class="clearfix">
                      <!--左边部分-->
- <!--  帮助 start -->
+  <!--  帮助 start -->
     <div class="help_center" >
      	
      	<div id="help_center" class="help_detail hidden">
-     		<h3>什么是单人悬赏？</h3>
-        <p><p>&nbsp;&nbsp;&nbsp;&nbsp;<strong> 单人悬赏常用于发布一些时间短，需要创意型的任务，例如给宝宝起名，店铺起名，设计网站logo，贺卡设计，找人排队跑腿，写广告语，策划活动等等是的吧</strong></p></p>
+     		<h3>什么是普通招标？</h3>
+        <p><p>普通招标，雇主选择中标者后，交付将在线下完成，雇主确认后，任务完成，普能招标，网站只收取固定的服务费用,</p><p>普通招标将不能增涨双方的信誉值，与能力值<br /></p><br /></p>
       	</div>
   
       	<div class="help_down ">
@@ -181,18 +181,13 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 </div>
 </div>
  <!--  帮助 end -->
- <!--提示信息-->
-   <!-- <div class="messages m_infor">
-     <span class="icon16">info</span>单人悬赏常用于发布一些时间短，需要创意型的任务，例如给宝宝起名，店铺起名，设计网站logo，贺卡设计       <a href="javascript:;" class="close">&times;</a>
-   </div> -->
-   
-  <!--end 提示信息-->
-  <!--from表单 start-->
-   <div class="form_box clearfix border_n">
-   <!--  <div class="form_tip">
-        <h5 class="font14b t_c" style="color:#7caf22">单人悬赏任务流程图</h5>-->
-        <!--单人悬赏-single-->
- <!--<div class="min_step all_8 step_orange mb_10 ml_30">
+
+ <!--from表单 start-->
+   <div class="form_box clearfix box border_n">
+     <!--  <div class="form_tip">
+        <h5 class="font14b t_c" style="color:#7caf22">普通招标任务流程图</h5>
+        <!--单人悬赏-single
+<div class="min_step all_7 step_orange mb_10 ml_30">
 <ul class="clearfix">
 <li class>
 <div class="icon"></div>
@@ -216,17 +211,12 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 
 <li>
 <div class="icon"></div>
-<span>公示</span>
+<span>发起完工</span>
 </li>
 
 <li>
 <div class="icon"></div>
-<span>交付</span>
-</li>
-
-<li>
-<div class="icon"></div>
-<span>互评</span>
+<span>确认完工</span>
 </li>
 
 <li class="last">
@@ -236,56 +226,90 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 
 </ul>
 </div>
-      </div>-->
-     
- 
-  <form action="index.php?do=release&pub_mode=professional&t_id=&model_id=1&r_step=step1" method="post" name="frm_step1" id="frm_step1">
-  	<input type="hidden" name="step1" value="step1">
-<input type="hidden" name="min" value="2014-12-07" id="min">
-<input type="hidden" name="max" value="" id="max">
-  	<input type="hidden" name="formhash" value="679ee3">
+      </div> -->
+      
+  <form action="index.php?do=release&pub_mode=professional&t_id=&model_id=4&r_step=step1" method="post" name="frm_step1" id="frm_step1">
+  	<input type="hidden" name="formhash" value="5d6815">
+<input type="hidden" name="step1" value="1">
+<input type="hidden" name="min" value="2014-12-06" id="min">
+<input type="hidden" name="max" value="2015-01-04" id="max">
 
-       <div class="rowElem clearfix">
+
+        <div class="rowElem clearfix po_re">
           <label class="grid_8"><strong>您的预算：</strong></label>
            <div class="grid_12">
-              <input name="txt_task_cash" size="30" value="800" type="text" id="txt_task_cash" msgArea="span_task_cash"  title="任务预算,不支持小数,最小金额为80元" onkeyup="clearstr(this)"
-    limit="required:true;type:float;between:80-" msg="任务预算不得为空,最小金额为80元" onblur="getMaxDday(this.value)" />
-<span class="ml_5">元</span>
-<span id="span_task_cash" class="ml_5"></span>
+           	<select name="task_cash_cove" id="task_cash_cove" title="请选择预算范围(必选)" style="width:190px;" >
+           		<option value="">---请选择---</option>
+<option value="34" >1.00元-1000.00元</option>	
+<option value="35" >1000.00元-3000.00元</option>	
+<option value="36" >3000.00元-6000.00元</option>	
+<option value="37" >6000.00元-10000.00元</option>	
+<option value="38" >10000.00元-20000.00元</option>	
+<option value="39" >20000.00元-30000.00元</option>	
+<option value="40" >30000.00元-50000.00元</option>	
+<option value="43" >50000.00元-60000.00元</option>	
+	
+           	</select>
+           	<span class="ml_5">元</span>
+<div id="span_task_cove"  class="ml_5"></div>
            </div>
         </div>
 
-        <div class="rowElem clearfix">
+           <div class="rowElem clearfix">
           <label class="grid_8"><strong>交稿截止日期：</strong></label>
             <div class="grid_12">
-
-<input name="txt_task_day" onclick="showcalendar(event, this, 0)"
-size="30"
-value="2014-12-07"
-type="text" id="txt_task_day" min_day="2"
-title="预计的任务持续天数,当前预算允许最小天数为:2天,最大截止时间："
-msgArea="span_task_day" onkeyup="clearstr(this)"
-limit="required:true;type:date;than:min;less:max"
-msg="任务时间周期不在许可范围内" max="" /><span class="ml_5">年-月-日</span> <span id="span_task_day" class="ml_5"></span>
-
+       
+               <input name="txt_task_day"   onclick="showcalendar(event, this, 0)" size="30" value="2015-01-04" type="text" id="txt_task_day" title="预计的任务持续天数,当前预算允许最小天数为:1天,最大截止时间：2015-01-04 " msgArea="span_task_day" onkeyup="clearstr(this)"
+   	limit="required:true;type:date;than:min;less:max" msg="任务时间周期不在许可范围内" max=""/><!--between:--->
+            	<span class="ml_5">年-月-日</span>
+ <span id="span_task_day"  class="ml_5"></span>
+ 
 </div>
         </div>
-<div class="rowElem clearfix po_re">
+
+        <div class="rowElem clearfix ">
            <label class="grid_8"><strong>赏金分配：</strong></label>
-             <div class="grid_6"><strong>单人中标</strong></div>
+             <div class="grid_6">
+         		    <strong>单人中标</strong>
+             </div>
         </div>
+
+
      </form>
     </div>
     <!--from表单 end-->
-    <div class="step_button"> <button type="submit" name="is_submit" onclick="stepCheck();" class="big button">下一步</button></div>
-   
+    <div class="step_button"> <button type="submit" name="is_submit" onclick="stepCheck_ext();" class="big button">下一步</button></div>
+  
  
 <!--end 左边部分-->
+<!--右边部分-->
+  <!--  <div class="grid_7 omega alpha">
+     <div class=" prefix_1 suffix_1 pt_20">
+       <h3 class="font14b">什么是普通招标 </h3>
+         <p><!--{eval echo kekezu::filter_input(&lt;p&gt;普通招标，雇主选择中标者后，交付将在线下完成，雇主确认后，任务完成，普能招标，网站只收取固定的服务费用,&lt;/p&gt;&lt;p&gt;普通招标将不能增涨双方的信誉值，与能力值&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;)}</p>
+     </div>
+    </div> -->
 
-   
+
 <script type="text/javascript">
-In('calendar');
-</script>                    <!--end 任务模式下部内容-->
+    
+ In('calendar')
+//钱的区间检查	
+function stepCheck_ext(){		
+var slt_val = $("#task_cash_cove").val(); 
+if(!slt_val){
+$("#span_task_cove").addClass("msg msg_error").html("<i></i><span>请选择预算区间</span>");return false;
+
+//showDialog('请选择预算区间', 'alert', '友情提示','document.getElementById("task_cash_cove").focus()',0); return false;
+}else{
+$("#span_task_cove").removeClass("msg_error").html(" ");
+}
+stepCheck();
+}
+
+</script>
+<!--end 右边部分-->
+                    <!--end 任务模式下部内容-->
                 </div>
                 <!--end 步骤下所有内容-->
             </div>
@@ -298,11 +322,11 @@ In('calendar');
 </div>
 <script type="text/javascript" src="resource/js/system/release.js"></script>
 <script type="text/javascript">
-    var model_id = parseInt("1") + 0;
-    var uid = parseInt("1") + 0;
+    var model_id = parseInt("4") + 0;
+    var uid = parseInt("11") + 0;
     var r_step = "step1";
-    var basic_url = "index.php?do=release&pub_mode=professional&t_id=&model_id=1&r_step=step1";
-    var min_day = parseInt("2");
+    var basic_url = "index.php?do=release&pub_mode=professional&t_id=&model_id=4&r_step=step1";
+    var min_day = parseInt("");
 
 In('ajaxfileupload','form');
 </script>
