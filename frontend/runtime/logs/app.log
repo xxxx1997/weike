@@ -1657,3 +1657,211 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1417768668.8
     'REQUEST_TIME' => 1417768668
 ]
+2014-12-05 09:48:59 [127.0.0.1][][t10r6bjgoqm8ddkl6edl1gldt4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/task_list' in E:\weike\sizu\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 E:\weike\sizu\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('task_list', Array)
+#1 E:\weike\sizu\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/task_list', Array)
+#2 E:\weike\sizu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 E:\weike\sizu\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: index/task_list' in E:\weike\sizu\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 E:\weike\sizu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\weike\sizu\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 09:48:59 [127.0.0.1][][t10r6bjgoqm8ddkl6edl1gldt4][info][application] $_GET = [
+    'r' => 'index/task_list'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 't10r6bjgoqm8ddkl6edl1gldt4'
+    '_csrf' => '17c7bc11a4989a84f218b550b03c075880fdb56494530de3dbfd954e02a75769s:32:\"bCcuUS_hDoi2za-pLLTe9w6vbNqaP05q\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/test/backend/web/index.php'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/install/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/install/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=t10r6bjgoqm8ddkl6edl1gldt4; _csrf=17c7bc11a4989a84f218b550b03c075880fdb56494530de3dbfd954e02a75769s%3A32%3A%22bCcuUS_hDoi2za-pLLTe9w6vbNqaP05q%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\安装\\svn\\bin;%;AVA_HOME%\\bin;D:\\install\\jdk\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\install\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;.;;.;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/weike'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/weike'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/weike/sizu/frontend/web/index.php'
+    'REMOTE_PORT' => '59467'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/task_list'
+    'REQUEST_URI' => '/sizu/frontend/web/index.php?r=index/task_list'
+    'SCRIPT_NAME' => '/sizu/frontend/web/index.php'
+    'PHP_SELF' => '/sizu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417769339.034
+    'REQUEST_TIME' => 1417769339
+]
+2014-12-05 09:49:09 [127.0.0.1][][t10r6bjgoqm8ddkl6edl1gldt4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "tesk/task_list".' in E:\weike\sizu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\weike\sizu\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('tesk/task_list', Array)
+#1 E:\weike\sizu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\weike\sizu\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "tesk/task_list".' in E:\weike\sizu\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 E:\weike\sizu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\weike\sizu\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 09:49:09 [127.0.0.1][][t10r6bjgoqm8ddkl6edl1gldt4][info][application] $_GET = [
+    'r' => 'tesk/task_list'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 't10r6bjgoqm8ddkl6edl1gldt4'
+    '_csrf' => '17c7bc11a4989a84f218b550b03c075880fdb56494530de3dbfd954e02a75769s:32:\"bCcuUS_hDoi2za-pLLTe9w6vbNqaP05q\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/test/backend/web/index.php'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/install/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/install/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=t10r6bjgoqm8ddkl6edl1gldt4; _csrf=17c7bc11a4989a84f218b550b03c075880fdb56494530de3dbfd954e02a75769s%3A32%3A%22bCcuUS_hDoi2za-pLLTe9w6vbNqaP05q%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\安装\\svn\\bin;%;AVA_HOME%\\bin;D:\\install\\jdk\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\install\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;.;;.;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/weike'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/weike'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/weike/sizu/frontend/web/index.php'
+    'REMOTE_PORT' => '59469'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=tesk/task_list'
+    'REQUEST_URI' => '/sizu/frontend/web/index.php?r=tesk/task_list'
+    'SCRIPT_NAME' => '/sizu/frontend/web/index.php'
+    'PHP_SELF' => '/sizu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417769349.175
+    'REQUEST_TIME' => 1417769349
+]
+2014-12-05 09:49:15 [127.0.0.1][][t10r6bjgoqm8ddkl6edl1gldt4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "tak/task_list".' in E:\weike\sizu\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 E:\weike\sizu\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('tak/task_list', Array)
+#1 E:\weike\sizu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\weike\sizu\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "tak/task_list".' in E:\weike\sizu\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 E:\weike\sizu\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\weike\sizu\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 09:49:15 [127.0.0.1][][t10r6bjgoqm8ddkl6edl1gldt4][info][application] $_GET = [
+    'r' => 'tak/task_list'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 't10r6bjgoqm8ddkl6edl1gldt4'
+    '_csrf' => '17c7bc11a4989a84f218b550b03c075880fdb56494530de3dbfd954e02a75769s:32:\"bCcuUS_hDoi2za-pLLTe9w6vbNqaP05q\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/test/backend/web/index.php'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/install/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/install/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=t10r6bjgoqm8ddkl6edl1gldt4; _csrf=17c7bc11a4989a84f218b550b03c075880fdb56494530de3dbfd954e02a75769s%3A32%3A%22bCcuUS_hDoi2za-pLLTe9w6vbNqaP05q%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\安装\\svn\\bin;%;AVA_HOME%\\bin;D:\\install\\jdk\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\install\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;.;;.;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/weike'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/weike'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/weike/sizu/frontend/web/index.php'
+    'REMOTE_PORT' => '59469'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=tak/task_list'
+    'REQUEST_URI' => '/sizu/frontend/web/index.php?r=tak/task_list'
+    'SCRIPT_NAME' => '/sizu/frontend/web/index.php'
+    'PHP_SELF' => '/sizu/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417769355.106
+    'REQUEST_TIME' => 1417769355
+]
