@@ -677,7 +677,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
                                 <div class="grid_4 m_h">
                                    
    <div class="mb_10">
-   	<a href="http://www.web3.com/frontend/web/index.php?r=index/release" class="submit block">发布任务</a>
+   	<a href="index.php?r=index/release" class="submit block">发布任务</a>
    </div>
    
    
