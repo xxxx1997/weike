@@ -239,7 +239,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
       </div>-->
      
  
-  <form action="index.php?do=release&pub_mode=professional&t_id=&model_id=1&r_step=step1" method="post" name="frm_step1" id="frm_step1">
+  <form action="index.php/release_do" method="post" name="frm_step1" id="frm_step1">
   	<input type="hidden" name="step1" value="step1">
 <input type="hidden" name="min" value="2014-12-07" id="min">
 <input type="hidden" name="max" value="" id="max">
