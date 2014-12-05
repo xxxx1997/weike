@@ -71,7 +71,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 
 
 </head>
-    <body id="index">
+   
 
 <div class="blue_style" id="wrapper">
 
@@ -218,7 +218,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 </li>
 <li class="line"></li>
                    		<li>
-                   			<a href="index.php?do=task_list"  >
+                   			<a href="index.php?r=index/task_list"  >
                    			<span>任务大厅</span></a>
 </li>
 <li class="line"></li>
@@ -386,7 +386,7 @@ In('header_top','custom','lavalamp','tipsy','autoIMG','slides');
 <!--[if IE 6]></div><![endif]-->
 <!--[if IE 7]></div><![endif]-->
 <!--[if IE 8]></div><![endif]-->
-</body>
+
 </html>
 
 

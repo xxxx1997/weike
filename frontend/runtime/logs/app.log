@@ -497,3 +497,137 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1417747942.832
     'REQUEST_TIME' => 1417747942
 ]
+2014-12-05 07:57:52 [127.0.0.1][][atq43j4jhaj5topqcn973gj8r5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/task_list' in D:\web3\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\web3\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('task_list', Array)
+#1 D:\web3\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/task_list', Array)
+#2 D:\web3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\web3\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: index/task_list' in D:\web3\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\web3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\web3\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 07:57:52 [127.0.0.1][][atq43j4jhaj5topqcn973gj8r5][info][application] $_GET = [
+    'r' => 'index/task_list'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'atq43j4jhaj5topqcn973gj8r5'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.web3.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.web3.com/frontend/web/index.php?r=index/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_CHARSET' => 'GBK,utf-8;q=0.7,*;q=0.3'
+    'HTTP_COOKIE' => 'PHPSESSID=atq43j4jhaj5topqcn973gj8r5'
+    'PATH' => 'D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\java\\bin;D:\\java\\jre\\bin;E:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at www.web3.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'www.web3.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/web3'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/web3'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/web3/frontend/web/index.php'
+    'REMOTE_PORT' => '58663'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/task_list'
+    'REQUEST_URI' => '/frontend/web/index.php?r=index/task_list'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762672.789
+    'REQUEST_TIME' => 1417762672
+]
+2014-12-05 07:58:21 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: thsi' in D:\web3\frontend\controllers\IndexController.php:32
+Stack trace:
+#0 D:\web3\frontend\controllers\IndexController.php(32): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\web3\fronten...', 32, Array)
+#1 [internal function]: frontend\controllers\IndexController->actionTask_list()
+#2 D:\web3\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\web3\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 D:\web3\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('task_list', Array)
+#5 D:\web3\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/task_list', Array)
+#6 D:\web3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\web3\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2014-12-05 07:58:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/task_list'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'atq43j4jhaj5topqcn973gj8r5'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.web3.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_CHARSET' => 'GBK,utf-8;q=0.7,*;q=0.3'
+    'HTTP_COOKIE' => 'PHPSESSID=atq43j4jhaj5topqcn973gj8r5'
+    'PATH' => 'D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\java\\bin;D:\\java\\jre\\bin;E:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at www.web3.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'www.web3.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/web3'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/web3'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/web3/frontend/web/index.php'
+    'REMOTE_PORT' => '58665'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/task_list'
+    'REQUEST_URI' => '/frontend/web/index.php?r=index/task_list'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762701.671
+    'REQUEST_TIME' => 1417762701
+]
