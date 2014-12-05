@@ -21,8 +21,11 @@ class IndexController extends Controller
     /**
      * @inheritdoc
      */
-	public function actionIndex(){
-		echo 1;
-		//return $this->render('index');
-	}
+    public function actionIndex(){
+		return $this->render("index");
+    }
+	 public function actionLogin(){
+		return $this->render("login");
+    }
 }
+?>

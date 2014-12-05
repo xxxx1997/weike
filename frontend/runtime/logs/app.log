@@ -1,821 +1,499 @@
-2014-12-04 09:08:05 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/a' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+2014-12-04 09:14:31 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\controllers\IndexController' in file: E:\weike\test/frontend/controllers/IndexController.php. Namespace missing?' in E:\weike\test\vendor\yiisoft\yii2\BaseYii.php:291
 Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('a', Array)
-#1 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/a', Array)
-#2 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#3 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#4 {main}
-
-Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: site/a' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php:95
-Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#2 {main}
-2014-12-04 09:08:05 [127.0.0.1][][-][info][application] $_GET = [
-    'r' => 'site/a'
-]
-
-$_COOKIE = [
-    'AJSTAT_ok_times' => '1'
-    '_ga' => 'GA1.1.54924247.1416566351'
-    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
-    'PHPSESSID' => 'ge28mm5bvi4ci6eve5br9nkvh4'
-    '_csrf' => 'b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es:32:\"Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM\";'
-]
-
-$_SESSION = [
-    '__flash' => []
-    '__returnUrl' => '/advanced/backend/web/index.php?r=site'
-]
-
-$_SERVER = [
-    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
-    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
-    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
-    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
-    'PHPRC' => '\\xampp\\php'
-    'TMP' => '\\xampp\\tmp'
-    'HTTP_HOST' => 'localhost'
-    'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
-    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
-    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
-    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=ge28mm5bvi4ci6eve5br9nkvh4; _csrf=b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es%3A32%3A%22Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM%22%3B'
-    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin'
-    'SystemRoot' => 'C:\\Windows'
-    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
-    'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
-'
-    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
-    'SERVER_NAME' => 'localhost'
-    'SERVER_ADDR' => '127.0.0.1'
-    'SERVER_PORT' => '80'
-    'REMOTE_HOST' => 'ÇØ³å³å'
-    'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
-    'REQUEST_SCHEME' => 'http'
-    'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
-    'SERVER_ADMIN' => 'postmaster@localhost'
-    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/advanced/frontend/web/index.php'
-    'REMOTE_PORT' => '58440'
-    'GATEWAY_INTERFACE' => 'CGI/1.1'
-    'SERVER_PROTOCOL' => 'HTTP/1.1'
-    'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => 'r=site/a'
-    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=site/a'
-    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
-    'PHP_SELF' => '/advanced/frontend/web/index.php'
-    'REQUEST_TIME_FLOAT' => 1417680485.858
-    'REQUEST_TIME' => 1417680485
-]
-2014-12-04 09:08:45 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/aaa' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Controller.php:122
-Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('aaa', Array)
-#1 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('site/aaa', Array)
-#2 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#3 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#4 {main}
-
-Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: site/aaa' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php:95
-Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#2 {main}
-2014-12-04 09:08:45 [127.0.0.1][][-][info][application] $_GET = [
-    'r' => 'site/aaa'
-]
-
-$_COOKIE = [
-    'AJSTAT_ok_times' => '1'
-    '_ga' => 'GA1.1.54924247.1416566351'
-    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
-    'PHPSESSID' => 'ge28mm5bvi4ci6eve5br9nkvh4'
-    '_csrf' => 'b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es:32:\"Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM\";'
-]
-
-$_SESSION = [
-    '__flash' => []
-    '__returnUrl' => '/advanced/backend/web/index.php?r=site'
-]
-
-$_SERVER = [
-    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
-    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
-    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
-    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
-    'PHPRC' => '\\xampp\\php'
-    'TMP' => '\\xampp\\tmp'
-    'HTTP_HOST' => 'localhost'
-    'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
-    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
-    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
-    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=ge28mm5bvi4ci6eve5br9nkvh4; _csrf=b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es%3A32%3A%22Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM%22%3B'
-    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin'
-    'SystemRoot' => 'C:\\Windows'
-    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
-    'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
-'
-    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
-    'SERVER_NAME' => 'localhost'
-    'SERVER_ADDR' => '127.0.0.1'
-    'SERVER_PORT' => '80'
-    'REMOTE_HOST' => 'ÇØ³å³å'
-    'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
-    'REQUEST_SCHEME' => 'http'
-    'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
-    'SERVER_ADMIN' => 'postmaster@localhost'
-    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/advanced/frontend/web/index.php'
-    'REMOTE_PORT' => '58455'
-    'GATEWAY_INTERFACE' => 'CGI/1.1'
-    'SERVER_PROTOCOL' => 'HTTP/1.1'
-    'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => 'r=site/aaa'
-    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=site/aaa'
-    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
-    'PHP_SELF' => '/advanced/frontend/web/index.php'
-    'REQUEST_TIME_FLOAT' => 1417680525.695
-    'REQUEST_TIME' => 1417680525
-]
-2014-12-04 09:20:43 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: aaa/index' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Controller.php:122
-Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
-#1 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('aaa/index', Array)
-#2 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#3 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#4 {main}
-
-Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: aaa/index' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php:95
-Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#2 {main}
-2014-12-04 09:20:43 [127.0.0.1][][-][info][application] $_GET = [
-    'r' => 'aaa/index'
-]
-
-$_COOKIE = [
-    'AJSTAT_ok_times' => '1'
-    '_ga' => 'GA1.1.54924247.1416566351'
-    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
-    'PHPSESSID' => 'ge28mm5bvi4ci6eve5br9nkvh4'
-    '_csrf' => 'b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es:32:\"Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM\";'
-]
-
-$_SESSION = [
-    '__flash' => []
-    '__returnUrl' => '/advanced/backend/web/index.php?r=site'
-]
-
-$_SERVER = [
-    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
-    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
-    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
-    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
-    'PHPRC' => '\\xampp\\php'
-    'TMP' => '\\xampp\\tmp'
-    'HTTP_HOST' => 'localhost'
-    'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
-    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
-    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
-    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=ge28mm5bvi4ci6eve5br9nkvh4; _csrf=b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es%3A32%3A%22Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM%22%3B'
-    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin'
-    'SystemRoot' => 'C:\\Windows'
-    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
-    'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
-'
-    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
-    'SERVER_NAME' => 'localhost'
-    'SERVER_ADDR' => '127.0.0.1'
-    'SERVER_PORT' => '80'
-    'REMOTE_HOST' => 'ÇØ³å³å'
-    'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
-    'REQUEST_SCHEME' => 'http'
-    'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
-    'SERVER_ADMIN' => 'postmaster@localhost'
-    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/advanced/frontend/web/index.php'
-    'REMOTE_PORT' => '58502'
-    'GATEWAY_INTERFACE' => 'CGI/1.1'
-    'SERVER_PROTOCOL' => 'HTTP/1.1'
-    'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => 'r=aaa/index'
-    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=aaa/index'
-    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
-    'PHP_SELF' => '/advanced/frontend/web/index.php'
-    'REQUEST_TIME_FLOAT' => 1417681243.892
-    'REQUEST_TIME' => 1417681243
-]
-2014-12-04 09:21:58 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/index' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Controller.php:122
-Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
-#1 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/index', Array)
-#2 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#3 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#4 {main}
-
-Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: index/index' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php:95
-Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#2 {main}
-2014-12-04 09:21:58 [127.0.0.1][][-][info][application] $_GET = [
+#0 [internal function]: yii\BaseYii::autoload('frontend\contro...')
+#1 [internal function]: spl_autoload_call('frontend\contro...')
+#2 E:\weike\test\vendor\yiisoft\yii2\base\Module.php(563): class_exists('frontend\contro...')
+#3 E:\weike\test\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('index')
+#4 E:\weike\test\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('index/index')
+#5 E:\weike\test\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/index', Array)
+#6 E:\weike\test\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\weike\test\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2014-12-04 09:14:31 [127.0.0.1][-][-][info][application] $_GET = [
     'r' => 'index/index'
 ]
 
 $_COOKIE = [
-    'AJSTAT_ok_times' => '1'
-    '_ga' => 'GA1.1.54924247.1416566351'
-    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
-    'PHPSESSID' => 'ge28mm5bvi4ci6eve5br9nkvh4'
-    '_csrf' => 'b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es:32:\"Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM\";'
-]
-
-$_SESSION = [
-    '__flash' => []
-    '__returnUrl' => '/advanced/backend/web/index.php?r=site'
+    'article_299' => 'exist_299'
+    '_csrf' => '5c27e7067f2e8ce4ac98729e324d630319e84e1d99bf94969c0af61198b693des:32:\"ZfzthC8LgyEt0k-WpMIucRpsgJzkEZnl\";'
+    'PHPSESSID' => '79ccn8qiamkacgkkq3j4s91302'
 ]
 
 $_SERVER = [
-    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MIBDIRS' => 'D:/install/xampp/php/extras/mibs'
     'MYSQL_HOME' => '\\xampp\\mysql\\bin'
-    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'OPENSSL_CONF' => 'D:/install/xampp/apache/bin/openssl.cnf'
     'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
     'PHPRC' => '\\xampp\\php'
     'TMP' => '\\xampp\\tmp'
-    'HTTP_HOST' => 'localhost'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'article_299=exist_299; _csrf=5c27e7067f2e8ce4ac98729e324d630319e84e1d99bf94969c0af61198b693des%3A32%3A%22ZfzthC8LgyEt0k-WpMIucRpsgJzkEZnl%22%3B; PHPSESSID=79ccn8qiamkacgkkq3j4s91302'
     'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
-    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
-    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
-    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=ge28mm5bvi4ci6eve5br9nkvh4; _csrf=b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es%3A32%3A%22Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM%22%3B'
-    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\å®‰è£…\\svn\\bin;%;AVA_HOME%\\bin;D:\\install\\jdk\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\install\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;.;;.;'
     'SystemRoot' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
 '
-    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
-    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
     'SERVER_ADDR' => '127.0.0.1'
     'SERVER_PORT' => '80'
-    'REMOTE_HOST' => 'ÇØ³å³å'
     'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'DOCUMENT_ROOT' => 'E:/weike'
     'REQUEST_SCHEME' => 'http'
     'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/weike'
     'SERVER_ADMIN' => 'postmaster@localhost'
-    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/advanced/frontend/web/index.php'
-    'REMOTE_PORT' => '58510'
+    'SCRIPT_FILENAME' => 'E:/weike/test/frontend/web/index.php'
+    'REMOTE_PORT' => '52497'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
     'REQUEST_METHOD' => 'GET'
     'QUERY_STRING' => 'r=index/index'
-    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=index/index'
-    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
-    'PHP_SELF' => '/advanced/frontend/web/index.php'
-    'REQUEST_TIME_FLOAT' => 1417681318.72
-    'REQUEST_TIME' => 1417681318
+    'REQUEST_URI' => '/test/frontend/web/index.php?r=index/index'
+    'SCRIPT_NAME' => '/test/frontend/web/index.php'
+    'PHP_SELF' => '/test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417680871.627
+    'REQUEST_TIME' => 1417680871
 ]
-2014-12-04 09:22:20 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/index' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+2014-12-04 09:16:05 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\controllers\IndexController' in file: E:\weike\test/frontend/controllers/IndexController.php. Namespace missing?' in E:\weike\test\vendor\yiisoft\yii2\BaseYii.php:291
 Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
-#1 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/index', Array)
-#2 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#3 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#4 {main}
-
-Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: index/index' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php:95
-Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#2 {main}
-2014-12-04 09:22:20 [127.0.0.1][][-][info][application] $_GET = [
+#0 [internal function]: yii\BaseYii::autoload('frontend\contro...')
+#1 [internal function]: spl_autoload_call('frontend\contro...')
+#2 E:\weike\test\vendor\yiisoft\yii2\base\Module.php(563): class_exists('frontend\contro...')
+#3 E:\weike\test\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('index')
+#4 E:\weike\test\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('index/index')
+#5 E:\weike\test\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/index', Array)
+#6 E:\weike\test\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\weike\test\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2014-12-04 09:16:05 [127.0.0.1][-][-][info][application] $_GET = [
     'r' => 'index/index'
 ]
 
 $_COOKIE = [
-    'AJSTAT_ok_times' => '1'
-    '_ga' => 'GA1.1.54924247.1416566351'
-    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
-    'PHPSESSID' => 'ge28mm5bvi4ci6eve5br9nkvh4'
-    '_csrf' => 'b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es:32:\"Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM\";'
-]
-
-$_SESSION = [
-    '__flash' => []
-    '__returnUrl' => '/advanced/backend/web/index.php?r=site'
+    'article_299' => 'exist_299'
+    '_csrf' => '5c27e7067f2e8ce4ac98729e324d630319e84e1d99bf94969c0af61198b693des:32:\"ZfzthC8LgyEt0k-WpMIucRpsgJzkEZnl\";'
+    'PHPSESSID' => '79ccn8qiamkacgkkq3j4s91302'
 ]
 
 $_SERVER = [
-    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MIBDIRS' => 'D:/install/xampp/php/extras/mibs'
     'MYSQL_HOME' => '\\xampp\\mysql\\bin'
-    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'OPENSSL_CONF' => 'D:/install/xampp/apache/bin/openssl.cnf'
     'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
     'PHPRC' => '\\xampp\\php'
     'TMP' => '\\xampp\\tmp'
-    'HTTP_HOST' => 'localhost'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'article_299=exist_299; _csrf=5c27e7067f2e8ce4ac98729e324d630319e84e1d99bf94969c0af61198b693des%3A32%3A%22ZfzthC8LgyEt0k-WpMIucRpsgJzkEZnl%22%3B; PHPSESSID=79ccn8qiamkacgkkq3j4s91302'
     'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_CACHE_CONTROL' => 'max-age=0'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
-    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
-    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
-    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=ge28mm5bvi4ci6eve5br9nkvh4; _csrf=b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es%3A32%3A%22Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM%22%3B'
-    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\å®‰è£…\\svn\\bin;%;AVA_HOME%\\bin;D:\\install\\jdk\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\install\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;.;;.;'
     'SystemRoot' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
 '
-    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
-    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
     'SERVER_ADDR' => '127.0.0.1'
     'SERVER_PORT' => '80'
-    'REMOTE_HOST' => 'ÇØ³å³å'
     'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'DOCUMENT_ROOT' => 'E:/weike'
     'REQUEST_SCHEME' => 'http'
     'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/weike'
     'SERVER_ADMIN' => 'postmaster@localhost'
-    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/advanced/frontend/web/index.php'
-    'REMOTE_PORT' => '58519'
+    'SCRIPT_FILENAME' => 'E:/weike/test/frontend/web/index.php'
+    'REMOTE_PORT' => '52502'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
     'REQUEST_METHOD' => 'GET'
     'QUERY_STRING' => 'r=index/index'
-    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=index/index'
-    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
-    'PHP_SELF' => '/advanced/frontend/web/index.php'
-    'REQUEST_TIME_FLOAT' => 1417681340.14
-    'REQUEST_TIME' => 1417681340
+    'REQUEST_URI' => '/test/frontend/web/index.php?r=index/index'
+    'SCRIPT_NAME' => '/test/frontend/web/index.php'
+    'PHP_SELF' => '/test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417680965.538
+    'REQUEST_TIME' => 1417680965
 ]
-2014-12-04 09:22:25 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/index' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+2014-12-04 09:16:55 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\controllers\IndexController' in file: E:\weike\test/frontend/controllers/IndexController.php. Namespace missing?' in E:\weike\test\vendor\yiisoft\yii2\BaseYii.php:291
 Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
-#1 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/index', Array)
-#2 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#3 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#4 {main}
-
-Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: index/index' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php:95
-Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#2 {main}
-2014-12-04 09:22:25 [127.0.0.1][][-][info][application] $_GET = [
+#0 [internal function]: yii\BaseYii::autoload('frontend\contro...')
+#1 [internal function]: spl_autoload_call('frontend\contro...')
+#2 E:\weike\test\vendor\yiisoft\yii2\base\Module.php(563): class_exists('frontend\contro...')
+#3 E:\weike\test\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('index')
+#4 E:\weike\test\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('index/index')
+#5 E:\weike\test\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/index', Array)
+#6 E:\weike\test\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\weike\test\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2014-12-04 09:16:55 [127.0.0.1][-][-][info][application] $_GET = [
     'r' => 'index/index'
 ]
 
 $_COOKIE = [
-    'AJSTAT_ok_times' => '1'
-    '_ga' => 'GA1.1.54924247.1416566351'
-    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
-    'PHPSESSID' => 'ge28mm5bvi4ci6eve5br9nkvh4'
-    '_csrf' => 'b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es:32:\"Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM\";'
-]
-
-$_SESSION = [
-    '__flash' => []
-    '__returnUrl' => '/advanced/backend/web/index.php?r=site'
+    'article_299' => 'exist_299'
+    '_csrf' => '5c27e7067f2e8ce4ac98729e324d630319e84e1d99bf94969c0af61198b693des:32:\"ZfzthC8LgyEt0k-WpMIucRpsgJzkEZnl\";'
+    'PHPSESSID' => '79ccn8qiamkacgkkq3j4s91302'
 ]
 
 $_SERVER = [
-    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MIBDIRS' => 'D:/install/xampp/php/extras/mibs'
     'MYSQL_HOME' => '\\xampp\\mysql\\bin'
-    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'OPENSSL_CONF' => 'D:/install/xampp/apache/bin/openssl.cnf'
     'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
     'PHPRC' => '\\xampp\\php'
     'TMP' => '\\xampp\\tmp'
-    'HTTP_HOST' => 'localhost'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'article_299=exist_299; _csrf=5c27e7067f2e8ce4ac98729e324d630319e84e1d99bf94969c0af61198b693des%3A32%3A%22ZfzthC8LgyEt0k-WpMIucRpsgJzkEZnl%22%3B; PHPSESSID=79ccn8qiamkacgkkq3j4s91302'
     'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_CACHE_CONTROL' => 'max-age=0'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
-    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
-    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
-    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=ge28mm5bvi4ci6eve5br9nkvh4; _csrf=b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es%3A32%3A%22Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM%22%3B'
-    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\å®‰è£…\\svn\\bin;%;AVA_HOME%\\bin;D:\\install\\jdk\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\install\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;.;;.;'
     'SystemRoot' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
 '
-    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
-    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
     'SERVER_ADDR' => '127.0.0.1'
     'SERVER_PORT' => '80'
-    'REMOTE_HOST' => 'ÇØ³å³å'
     'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'DOCUMENT_ROOT' => 'E:/weike'
     'REQUEST_SCHEME' => 'http'
     'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/weike'
     'SERVER_ADMIN' => 'postmaster@localhost'
-    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/advanced/frontend/web/index.php'
-    'REMOTE_PORT' => '58522'
+    'SCRIPT_FILENAME' => 'E:/weike/test/frontend/web/index.php'
+    'REMOTE_PORT' => '52508'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
     'REQUEST_METHOD' => 'GET'
     'QUERY_STRING' => 'r=index/index'
-    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=index/index'
-    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
-    'PHP_SELF' => '/advanced/frontend/web/index.php'
-    'REQUEST_TIME_FLOAT' => 1417681345.896
-    'REQUEST_TIME' => 1417681345
+    'REQUEST_URI' => '/test/frontend/web/index.php?r=index/index'
+    'SCRIPT_NAME' => '/test/frontend/web/index.php'
+    'PHP_SELF' => '/test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417681015.248
+    'REQUEST_TIME' => 1417681015
 ]
-2014-12-04 09:22:33 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/index' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+2014-12-04 09:16:57 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\controllers\IndexController' in file: E:\weike\test/frontend/controllers/IndexController.php. Namespace missing?' in E:\weike\test\vendor\yiisoft\yii2\BaseYii.php:291
 Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
-#1 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/index', Array)
-#2 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#3 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#4 {main}
-
-Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: index/index' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php:95
-Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#2 {main}
-2014-12-04 09:22:33 [127.0.0.1][][-][info][application] $_GET = [
+#0 [internal function]: yii\BaseYii::autoload('frontend\contro...')
+#1 [internal function]: spl_autoload_call('frontend\contro...')
+#2 E:\weike\test\vendor\yiisoft\yii2\base\Module.php(563): class_exists('frontend\contro...')
+#3 E:\weike\test\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('index')
+#4 E:\weike\test\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('index/index')
+#5 E:\weike\test\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/index', Array)
+#6 E:\weike\test\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\weike\test\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2014-12-04 09:16:57 [127.0.0.1][-][-][info][application] $_GET = [
     'r' => 'index/index'
 ]
 
 $_COOKIE = [
-    'AJSTAT_ok_times' => '1'
-    '_ga' => 'GA1.1.54924247.1416566351'
-    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
-    'PHPSESSID' => 'ge28mm5bvi4ci6eve5br9nkvh4'
-    '_csrf' => 'b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es:32:\"Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM\";'
-]
-
-$_SESSION = [
-    '__flash' => []
-    '__returnUrl' => '/advanced/backend/web/index.php?r=site'
+    'article_299' => 'exist_299'
+    '_csrf' => '5c27e7067f2e8ce4ac98729e324d630319e84e1d99bf94969c0af61198b693des:32:\"ZfzthC8LgyEt0k-WpMIucRpsgJzkEZnl\";'
+    'PHPSESSID' => '79ccn8qiamkacgkkq3j4s91302'
 ]
 
 $_SERVER = [
-    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MIBDIRS' => 'D:/install/xampp/php/extras/mibs'
     'MYSQL_HOME' => '\\xampp\\mysql\\bin'
-    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'OPENSSL_CONF' => 'D:/install/xampp/apache/bin/openssl.cnf'
     'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
     'PHPRC' => '\\xampp\\php'
     'TMP' => '\\xampp\\tmp'
-    'HTTP_HOST' => 'localhost'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'article_299=exist_299; _csrf=5c27e7067f2e8ce4ac98729e324d630319e84e1d99bf94969c0af61198b693des%3A32%3A%22ZfzthC8LgyEt0k-WpMIucRpsgJzkEZnl%22%3B; PHPSESSID=79ccn8qiamkacgkkq3j4s91302'
     'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_CACHE_CONTROL' => 'max-age=0'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
-    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
-    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
-    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=ge28mm5bvi4ci6eve5br9nkvh4; _csrf=b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es%3A32%3A%22Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM%22%3B'
-    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\å®‰è£…\\svn\\bin;%;AVA_HOME%\\bin;D:\\install\\jdk\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\install\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;.;;.;'
     'SystemRoot' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
 '
-    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
-    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
     'SERVER_ADDR' => '127.0.0.1'
     'SERVER_PORT' => '80'
-    'REMOTE_HOST' => 'ÇØ³å³å'
     'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'DOCUMENT_ROOT' => 'E:/weike'
     'REQUEST_SCHEME' => 'http'
     'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/weike'
     'SERVER_ADMIN' => 'postmaster@localhost'
-    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/advanced/frontend/web/index.php'
-    'REMOTE_PORT' => '58528'
+    'SCRIPT_FILENAME' => 'E:/weike/test/frontend/web/index.php'
+    'REMOTE_PORT' => '52509'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
     'REQUEST_METHOD' => 'GET'
     'QUERY_STRING' => 'r=index/index'
-    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=index/index'
-    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
-    'PHP_SELF' => '/advanced/frontend/web/index.php'
-    'REQUEST_TIME_FLOAT' => 1417681353.048
-    'REQUEST_TIME' => 1417681353
+    'REQUEST_URI' => '/test/frontend/web/index.php?r=index/index'
+    'SCRIPT_NAME' => '/test/frontend/web/index.php'
+    'PHP_SELF' => '/test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417681017.328
+    'REQUEST_TIME' => 1417681017
 ]
-2014-12-04 09:22:33 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/index' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+2014-12-04 09:16:59 [127.0.0.1][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'frontend\controllers\IndexController' in file: E:\weike\test/frontend/controllers/IndexController.php. Namespace missing?' in E:\weike\test\vendor\yiisoft\yii2\BaseYii.php:291
 Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
-#1 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/index', Array)
-#2 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#3 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#4 {main}
-
-Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: index/index' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php:95
-Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#2 {main}
-2014-12-04 09:22:33 [127.0.0.1][][-][info][application] $_GET = [
+#0 [internal function]: yii\BaseYii::autoload('frontend\contro...')
+#1 [internal function]: spl_autoload_call('frontend\contro...')
+#2 E:\weike\test\vendor\yiisoft\yii2\base\Module.php(563): class_exists('frontend\contro...')
+#3 E:\weike\test\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('index')
+#4 E:\weike\test\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('index/index')
+#5 E:\weike\test\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/index', Array)
+#6 E:\weike\test\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 E:\weike\test\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2014-12-04 09:16:59 [127.0.0.1][-][-][info][application] $_GET = [
     'r' => 'index/index'
 ]
 
 $_COOKIE = [
-    'AJSTAT_ok_times' => '1'
-    '_ga' => 'GA1.1.54924247.1416566351'
-    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
-    'PHPSESSID' => 'ge28mm5bvi4ci6eve5br9nkvh4'
-    '_csrf' => 'b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es:32:\"Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM\";'
-]
-
-$_SESSION = [
-    '__flash' => []
-    '__returnUrl' => '/advanced/backend/web/index.php?r=site'
+    'article_299' => 'exist_299'
+    '_csrf' => '5c27e7067f2e8ce4ac98729e324d630319e84e1d99bf94969c0af61198b693des:32:\"ZfzthC8LgyEt0k-WpMIucRpsgJzkEZnl\";'
+    'PHPSESSID' => '79ccn8qiamkacgkkq3j4s91302'
 ]
 
 $_SERVER = [
-    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MIBDIRS' => 'D:/install/xampp/php/extras/mibs'
     'MYSQL_HOME' => '\\xampp\\mysql\\bin'
-    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'OPENSSL_CONF' => 'D:/install/xampp/apache/bin/openssl.cnf'
     'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
     'PHPRC' => '\\xampp\\php'
     'TMP' => '\\xampp\\tmp'
-    'HTTP_HOST' => 'localhost'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'article_299=exist_299; _csrf=5c27e7067f2e8ce4ac98729e324d630319e84e1d99bf94969c0af61198b693des%3A32%3A%22ZfzthC8LgyEt0k-WpMIucRpsgJzkEZnl%22%3B; PHPSESSID=79ccn8qiamkacgkkq3j4s91302'
     'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_CACHE_CONTROL' => 'max-age=0'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
-    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
-    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
-    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=ge28mm5bvi4ci6eve5br9nkvh4; _csrf=b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es%3A32%3A%22Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM%22%3B'
-    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\å®‰è£…\\svn\\bin;%;AVA_HOME%\\bin;D:\\install\\jdk\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\install\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;.;;.;'
     'SystemRoot' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
 '
-    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
-    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
     'SERVER_ADDR' => '127.0.0.1'
     'SERVER_PORT' => '80'
-    'REMOTE_HOST' => 'ÇØ³å³å'
     'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'DOCUMENT_ROOT' => 'E:/weike'
     'REQUEST_SCHEME' => 'http'
     'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/weike'
     'SERVER_ADMIN' => 'postmaster@localhost'
-    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/advanced/frontend/web/index.php'
-    'REMOTE_PORT' => '58531'
+    'SCRIPT_FILENAME' => 'E:/weike/test/frontend/web/index.php'
+    'REMOTE_PORT' => '52510'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
     'REQUEST_METHOD' => 'GET'
     'QUERY_STRING' => 'r=index/index'
-    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=index/index'
-    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
-    'PHP_SELF' => '/advanced/frontend/web/index.php'
-    'REQUEST_TIME_FLOAT' => 1417681353.641
-    'REQUEST_TIME' => 1417681353
+    'REQUEST_URI' => '/test/frontend/web/index.php?r=index/index'
+    'SCRIPT_NAME' => '/test/frontend/web/index.php'
+    'PHP_SELF' => '/test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417681019.628
+    'REQUEST_TIME' => 1417681019
 ]
-2014-12-04 09:22:33 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/index' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+2014-12-04 09:36:10 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "inded".' in E:\weike\test\vendor\yiisoft\yii2\base\Module.php:461
 Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
-#1 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/index', Array)
-#2 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#3 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#4 {main}
+#0 E:\weike\test\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('inded', Array)
+#1 E:\weike\test\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\weike\test\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
 
-Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: index/index' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "inded".' in E:\weike\test\vendor\yiisoft\yii2\web\Application.php:95
 Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#0 E:\weike\test\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\weike\test\frontend\web\index.php(18): yii\base\Application->run()
 #2 {main}
-2014-12-04 09:22:33 [127.0.0.1][][-][info][application] $_GET = [
+2014-12-04 09:36:09 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'inded'
+]
+
+$_COOKIE = [
+    'article_299' => 'exist_299'
+    '_csrf' => '5c27e7067f2e8ce4ac98729e324d630319e84e1d99bf94969c0af61198b693des:32:\"ZfzthC8LgyEt0k-WpMIucRpsgJzkEZnl\";'
+    'PHPSESSID' => '79ccn8qiamkacgkkq3j4s91302'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/install/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/install/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'article_299=exist_299; _csrf=5c27e7067f2e8ce4ac98729e324d630319e84e1d99bf94969c0af61198b693des%3A32%3A%22ZfzthC8LgyEt0k-WpMIucRpsgJzkEZnl%22%3B; PHPSESSID=79ccn8qiamkacgkkq3j4s91302'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\å®‰è£…\\svn\\bin;%;AVA_HOME%\\bin;D:\\install\\jdk\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\install\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;.;;.;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/weike'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/weike'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'E:/weike/test/frontend/web/index.php'
+    'REMOTE_PORT' => '52647'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=inded'
+    'REQUEST_URI' => '/test/frontend/web/index.php?r=inded'
+    'SCRIPT_NAME' => '/test/frontend/web/index.php'
+    'PHP_SELF' => '/test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417682169.838
+    'REQUEST_TIME' => 1417682169
+]
+2014-12-05 03:49:22 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '>'' in E:\weike\test\frontend\views\layouts\main.php:353
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 03:49:21 [127.0.0.1][-][-][info][application] $_GET = [
     'r' => 'index/index'
 ]
 
 $_COOKIE = [
-    'AJSTAT_ok_times' => '1'
-    '_ga' => 'GA1.1.54924247.1416566351'
-    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
-    'PHPSESSID' => 'ge28mm5bvi4ci6eve5br9nkvh4'
-    '_csrf' => 'b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es:32:\"Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM\";'
-]
-
-$_SESSION = [
-    '__flash' => []
-    '__returnUrl' => '/advanced/backend/web/index.php?r=site'
+    'PHPSESSID' => 't10r6bjgoqm8ddkl6edl1gldt4'
 ]
 
 $_SERVER = [
-    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MIBDIRS' => 'D:/install/xampp/php/extras/mibs'
     'MYSQL_HOME' => '\\xampp\\mysql\\bin'
-    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'OPENSSL_CONF' => 'D:/install/xampp/apache/bin/openssl.cnf'
     'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
     'PHPRC' => '\\xampp\\php'
     'TMP' => '\\xampp\\tmp'
-    'HTTP_HOST' => 'localhost'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=t10r6bjgoqm8ddkl6edl1gldt4'
     'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_CACHE_CONTROL' => 'max-age=0'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
-    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
-    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
-    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=ge28mm5bvi4ci6eve5br9nkvh4; _csrf=b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es%3A32%3A%22Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM%22%3B'
-    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\å®‰è£…\\svn\\bin;%;AVA_HOME%\\bin;D:\\install\\jdk\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\install\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;.;;.;'
     'SystemRoot' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
 '
-    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
-    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
     'SERVER_ADDR' => '127.0.0.1'
     'SERVER_PORT' => '80'
-    'REMOTE_HOST' => 'ÇØ³å³å'
     'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'DOCUMENT_ROOT' => 'E:/weike'
     'REQUEST_SCHEME' => 'http'
     'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/weike'
     'SERVER_ADMIN' => 'postmaster@localhost'
-    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/advanced/frontend/web/index.php'
-    'REMOTE_PORT' => '58531'
+    'SCRIPT_FILENAME' => 'E:/weike/test/frontend/web/index.php'
+    'REMOTE_PORT' => '51927'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
     'REQUEST_METHOD' => 'GET'
     'QUERY_STRING' => 'r=index/index'
-    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=index/index'
-    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
-    'PHP_SELF' => '/advanced/frontend/web/index.php'
-    'REQUEST_TIME_FLOAT' => 1417681353.852
-    'REQUEST_TIME' => 1417681353
+    'REQUEST_URI' => '/test/frontend/web/index.php?r=index/index'
+    'SCRIPT_NAME' => '/test/frontend/web/index.php'
+    'PHP_SELF' => '/test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417747761.85
+    'REQUEST_TIME' => 1417747761
 ]
-2014-12-04 09:22:34 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/index' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+2014-12-05 03:52:23 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot use yii\helpers\Html as Html because the name is already in use' in E:\weike\test\frontend\views\layouts\main.php:15
 Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
-#1 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/index', Array)
-#2 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#3 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#4 {main}
-
-Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: index/index' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php:95
-Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#2 {main}
-2014-12-04 09:22:33 [127.0.0.1][][-][info][application] $_GET = [
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 03:52:22 [127.0.0.1][-][-][info][application] $_GET = [
     'r' => 'index/index'
 ]
 
 $_COOKIE = [
-    'AJSTAT_ok_times' => '1'
-    '_ga' => 'GA1.1.54924247.1416566351'
-    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
-    'PHPSESSID' => 'ge28mm5bvi4ci6eve5br9nkvh4'
-    '_csrf' => 'b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es:32:\"Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM\";'
-]
-
-$_SESSION = [
-    '__flash' => []
-    '__returnUrl' => '/advanced/backend/web/index.php?r=site'
+    'PHPSESSID' => 't10r6bjgoqm8ddkl6edl1gldt4'
 ]
 
 $_SERVER = [
-    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MIBDIRS' => 'D:/install/xampp/php/extras/mibs'
     'MYSQL_HOME' => '\\xampp\\mysql\\bin'
-    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'OPENSSL_CONF' => 'D:/install/xampp/apache/bin/openssl.cnf'
     'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
     'PHPRC' => '\\xampp\\php'
     'TMP' => '\\xampp\\tmp'
-    'HTTP_HOST' => 'localhost'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=t10r6bjgoqm8ddkl6edl1gldt4'
     'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_CACHE_CONTROL' => 'max-age=0'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
-    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
-    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
-    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=ge28mm5bvi4ci6eve5br9nkvh4; _csrf=b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es%3A32%3A%22Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM%22%3B'
-    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\å®‰è£…\\svn\\bin;%;AVA_HOME%\\bin;D:\\install\\jdk\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\install\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;.;;.;'
     'SystemRoot' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
 '
-    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
-    'SERVER_NAME' => 'localhost'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
     'SERVER_ADDR' => '127.0.0.1'
     'SERVER_PORT' => '80'
-    'REMOTE_HOST' => 'ÇØ³å³å'
     'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'DOCUMENT_ROOT' => 'E:/weike'
     'REQUEST_SCHEME' => 'http'
     'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/weike'
     'SERVER_ADMIN' => 'postmaster@localhost'
-    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/advanced/frontend/web/index.php'
-    'REMOTE_PORT' => '58529'
+    'SCRIPT_FILENAME' => 'E:/weike/test/frontend/web/index.php'
+    'REMOTE_PORT' => '51959'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
     'REQUEST_METHOD' => 'GET'
     'QUERY_STRING' => 'r=index/index'
-    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=index/index'
-    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
-    'PHP_SELF' => '/advanced/frontend/web/index.php'
-    'REQUEST_TIME_FLOAT' => 1417681353.985
-    'REQUEST_TIME' => 1417681353
-]
-2014-12-04 09:22:34 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/index' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Controller.php:122
-Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
-#1 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/index', Array)
-#2 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#3 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#4 {main}
-
-Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: index/index' in D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\web\Application.php:95
-Stack trace:
-#0 D:\xampp\htdocs\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
-#1 D:\xampp\htdocs\advanced\frontend\web\index.php(18): yii\base\Application->run()
-#2 {main}
-2014-12-04 09:22:34 [127.0.0.1][][-][info][application] $_GET = [
-    'r' => 'index/index'
-]
-
-$_COOKIE = [
-    'AJSTAT_ok_times' => '1'
-    '_ga' => 'GA1.1.54924247.1416566351'
-    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
-    'PHPSESSID' => 'ge28mm5bvi4ci6eve5br9nkvh4'
-    '_csrf' => 'b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es:32:\"Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM\";'
-]
-
-$_SESSION = [
-    '__flash' => []
-    '__returnUrl' => '/advanced/backend/web/index.php?r=site'
-]
-
-$_SERVER = [
-    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
-    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
-    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
-    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
-    'PHPRC' => '\\xampp\\php'
-    'TMP' => '\\xampp\\tmp'
-    'HTTP_HOST' => 'localhost'
-    'HTTP_CONNECTION' => 'keep-alive'
-    'HTTP_CACHE_CONTROL' => 'max-age=0'
-    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
-    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
-    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
-    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=ge28mm5bvi4ci6eve5br9nkvh4; _csrf=b54426b2972caa3d555ff579ea201d7d24380751b0d0be4af579d1fa92f9532es%3A32%3A%22Xo-1rN4v4vsfcpL-PT706nt6t6hEk6CM%22%3B'
-    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin'
-    'SystemRoot' => 'C:\\Windows'
-    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
-    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
-    'WINDIR' => 'C:\\Windows'
-    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
-'
-    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
-    'SERVER_NAME' => 'localhost'
-    'SERVER_ADDR' => '127.0.0.1'
-    'SERVER_PORT' => '80'
-    'REMOTE_HOST' => 'ÇØ³å³å'
-    'REMOTE_ADDR' => '127.0.0.1'
-    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
-    'REQUEST_SCHEME' => 'http'
-    'CONTEXT_PREFIX' => ''
-    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
-    'SERVER_ADMIN' => 'postmaster@localhost'
-    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/advanced/frontend/web/index.php'
-    'REMOTE_PORT' => '58531'
-    'GATEWAY_INTERFACE' => 'CGI/1.1'
-    'SERVER_PROTOCOL' => 'HTTP/1.1'
-    'REQUEST_METHOD' => 'GET'
-    'QUERY_STRING' => 'r=index/index'
-    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=index/index'
-    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
-    'PHP_SELF' => '/advanced/frontend/web/index.php'
-    'REQUEST_TIME_FLOAT' => 1417681354.148
-    'REQUEST_TIME' => 1417681354
+    'REQUEST_URI' => '/test/frontend/web/index.php?r=index/index'
+    'SCRIPT_NAME' => '/test/frontend/web/index.php'
+    'PHP_SELF' => '/test/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417747942.832
+    'REQUEST_TIME' => 1417747942
 ]

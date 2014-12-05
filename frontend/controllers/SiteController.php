@@ -21,9 +21,6 @@ class SiteController extends Controller
     /**
      * @inheritdoc
      */
-	public function actionaaa(){
-		echo 1;
-	}
     public function behaviors()
     {
         return [
@@ -70,7 +67,6 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
-		echo 1;die;
         return $this->render('index');
     }
 
