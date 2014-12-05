@@ -27,5 +27,13 @@ class IndexController extends Controller
 	 public function actionLogin(){
 		return $this->render("login");
     }
+	//任务大厅
+	public function actionTask_list(){
+		return $this->render("task_list");
+	}
+	//发布任务
+	public function actionRelease(){
+		return $this->render("release");
+	}
 }
 ?>

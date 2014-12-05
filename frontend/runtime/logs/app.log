@@ -497,6 +497,7 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1417747942.832
     'REQUEST_TIME' => 1417747942
 ]
+<<<<<<< HEAD
 2014-12-05 09:22:27 [127.0.0.1][][t10r6bjgoqm8ddkl6edl1gldt4][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 29705 bytes' 
 
 in E:\weike\sizu\vendor\yiisoft\yii2-debug\LogTarget.php:86
@@ -650,10 +651,32 @@ Stack trace:
 $_COOKIE = [
     'PHPSESSID' => 't10r6bjgoqm8ddkl6edl1gldt4'
     '_csrf' => '3d9e23aa93846bf28a7b95039c14fabf15fafcbe0dd704eb5c187c786ed75e96s:32:\"79tkKilTArHSEzvBjf1umTvo0Mn70w6c\";'
+=======
+2014-12-05 07:57:52 [127.0.0.1][][atq43j4jhaj5topqcn973gj8r5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/task_list' in D:\web3\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\web3\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('task_list', Array)
+#1 D:\web3\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/task_list', Array)
+#2 D:\web3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\web3\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: index/task_list' in D:\web3\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\web3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\web3\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 07:57:52 [127.0.0.1][][atq43j4jhaj5topqcn973gj8r5][info][application] $_GET = [
+    'r' => 'index/task_list'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'atq43j4jhaj5topqcn973gj8r5'
+>>>>>>> 94d682c1e8c5021c8580cd2f0a8f4cdf6199c287
 ]
 
 $_SESSION = [
     '__flash' => []
+<<<<<<< HEAD
     '__returnUrl' => '/test/backend/web/index.php'
 ]
 
@@ -672,10 +695,32 @@ $_SERVER = [
     'HTTP_COOKIE' => 'PHPSESSID=t10r6bjgoqm8ddkl6edl1gldt4; _csrf=3d9e23aa93846bf28a7b95039c14fabf15fafcbe0dd704eb5c187c786ed75e96s%3A32%3A%2279tkKilTArHSEzvBjf1umTvo0Mn70w6c%22%3B'
     'HTTP_CONNECTION' => 'keep-alive'
     'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\安装\\svn\\bin;%;AVA_HOME%\\bin;D:\\install\\jdk\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\install\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;.;;.;'
+=======
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.web3.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.web3.com/frontend/web/index.php?r=index/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_CHARSET' => 'GBK,utf-8;q=0.7,*;q=0.3'
+    'HTTP_COOKIE' => 'PHPSESSID=atq43j4jhaj5topqcn973gj8r5'
+    'PATH' => 'D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\java\\bin;D:\\java\\jre\\bin;E:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin'
+>>>>>>> 94d682c1e8c5021c8580cd2f0a8f4cdf6199c287
     'SystemRoot' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\Windows'
+<<<<<<< HEAD
     'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
@@ -743,10 +788,73 @@ $_SERVER = [
     'HTTP_COOKIE' => 'PHPSESSID=t10r6bjgoqm8ddkl6edl1gldt4; _csrf=3d9e23aa93846bf28a7b95039c14fabf15fafcbe0dd704eb5c187c786ed75e96s%3A32%3A%2279tkKilTArHSEzvBjf1umTvo0Mn70w6c%22%3B'
     'HTTP_CONNECTION' => 'keep-alive'
     'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\安装\\svn\\bin;%;AVA_HOME%\\bin;D:\\install\\jdk\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\install\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;.;;.;'
+=======
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at www.web3.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'www.web3.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/web3'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/web3'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/web3/frontend/web/index.php'
+    'REMOTE_PORT' => '58663'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/task_list'
+    'REQUEST_URI' => '/frontend/web/index.php?r=index/task_list'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762672.789
+    'REQUEST_TIME' => 1417762672
+]
+2014-12-05 07:58:21 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: thsi' in D:\web3\frontend\controllers\IndexController.php:32
+Stack trace:
+#0 D:\web3\frontend\controllers\IndexController.php(32): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\web3\fronten...', 32, Array)
+#1 [internal function]: frontend\controllers\IndexController->actionTask_list()
+#2 D:\web3\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\web3\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 D:\web3\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('task_list', Array)
+#5 D:\web3\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/task_list', Array)
+#6 D:\web3\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\web3\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2014-12-05 07:58:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/task_list'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'atq43j4jhaj5topqcn973gj8r5'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.web3.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/21.0.1180.89 Safari/537.1'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_ACCEPT_CHARSET' => 'GBK,utf-8;q=0.7,*;q=0.3'
+    'HTTP_COOKIE' => 'PHPSESSID=atq43j4jhaj5topqcn973gj8r5'
+    'PATH' => 'D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\java\\bin;D:\\java\\jre\\bin;E:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin'
+>>>>>>> 94d682c1e8c5021c8580cd2f0a8f4cdf6199c287
     'SystemRoot' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\Windows'
+<<<<<<< HEAD
     'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
@@ -791,10 +899,56 @@ Stack trace:
 $_COOKIE = [
     'PHPSESSID' => 't10r6bjgoqm8ddkl6edl1gldt4'
     '_csrf' => '3d9e23aa93846bf28a7b95039c14fabf15fafcbe0dd704eb5c187c786ed75e96s:32:\"79tkKilTArHSEzvBjf1umTvo0Mn70w6c\";'
+=======
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at www.web3.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'www.web3.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/web3'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/web3'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/web3/frontend/web/index.php'
+    'REMOTE_PORT' => '58665'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/task_list'
+    'REQUEST_URI' => '/frontend/web/index.php?r=index/task_list'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762701.671
+    'REQUEST_TIME' => 1417762701
+]
+2014-12-05 09:26:48 [127.0.0.1][-][nmj1p2u2b0t49pkai1o8m0njl2][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 46513 bytes' 
+
+in D:\web3\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\web3\vendor\...', 86, Array)
+#1 D:\web3\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD??a...')
+#2 D:\web3\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\web3\fronten...', Array)
+#3 D:\web3\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\web3\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\web3\vendor\yiisoft\yii2\log\Logger.php(166): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2014-12-05 09:26:48 [127.0.0.1][-][nmj1p2u2b0t49pkai1o8m0njl2][info][application] $_GET = [
+    'r' => 'index/release'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'nmj1p2u2b0t49pkai1o8m0njl2'
+>>>>>>> 94d682c1e8c5021c8580cd2f0a8f4cdf6199c287
 ]
 
 $_SESSION = [
     '__flash' => []
+<<<<<<< HEAD
     '__returnUrl' => '/test/backend/web/index.php'
 ]
 
@@ -806,18 +960,37 @@ $_SERVER = [
     'PHPRC' => '\\xampp\\php'
     'TMP' => '\\xampp\\tmp'
     'HTTP_HOST' => 'www.weike.com'
+=======
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.web3.com'
+>>>>>>> 94d682c1e8c5021c8580cd2f0a8f4cdf6199c287
     'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:33.0) Gecko/20100101 Firefox/33.0'
     'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
     'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+<<<<<<< HEAD
     'HTTP_REFERER' => 'http://www.weike.com/sizu/frontend/web/index.php?do=task_list'
     'HTTP_COOKIE' => 'PHPSESSID=t10r6bjgoqm8ddkl6edl1gldt4; _csrf=3d9e23aa93846bf28a7b95039c14fabf15fafcbe0dd704eb5c187c786ed75e96s%3A32%3A%2279tkKilTArHSEzvBjf1umTvo0Mn70w6c%22%3B'
     'HTTP_CONNECTION' => 'keep-alive'
     'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\安装\\svn\\bin;%;AVA_HOME%\\bin;D:\\install\\jdk\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\install\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;.;;.;'
+=======
+    'HTTP_COOKIE' => 'PHPSESSID=nmj1p2u2b0t49pkai1o8m0njl2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;D:\\java\\bin;D:\\java\\jre\\bin;E:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin'
+>>>>>>> 94d682c1e8c5021c8580cd2f0a8f4cdf6199c287
     'SystemRoot' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
     'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
     'WINDIR' => 'C:\\Windows'
+<<<<<<< HEAD
     'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
 '
     'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
@@ -841,4 +1014,29 @@ $_SERVER = [
     'PHP_SELF' => '/sizu/frontend/web/index.php'
     'REQUEST_TIME_FLOAT' => 1417767780.031
     'REQUEST_TIME' => 1417767780
+=======
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at www.web3.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'www.web3.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/web3'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/web3'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/web3/frontend/web/index.php'
+    'REMOTE_PORT' => '59760'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/release'
+    'REQUEST_URI' => '/frontend/web/index.php?r=index/release'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417768008.007
+    'REQUEST_TIME' => 1417768008
+>>>>>>> 94d682c1e8c5021c8580cd2f0a8f4cdf6199c287
 ]
