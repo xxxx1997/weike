@@ -375,7 +375,7 @@
                                                     <a class="" href="index.php?do=ajax&view=share&oid=0&title=进驻商场&企业生活馆餐饮店的竞标报告" id="share0" onclick="return false;" onmouseover="share(this);return false;" title="分享"><div class="icon16 share">分享</div></a>
                                                 
                                                 </div> -->
-                                             
+                                             <?php endforeach;?>
                                             </dl>
                                         </div>
                                         <!--end 列表主内容--><!--右下角的返回顶部--
