@@ -2999,3 +2999,1134 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1417775118.383
     'REQUEST_TIME' => 1417775118
 ]
+2014-12-05 13:54:21 [127.0.0.1][-][j34dv4e7u8vqj135u55pcm9935][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 23429 bytes' 
+
+in D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\xampp\htdocs...', 86, Array)
+#1 D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD??a...')
+#2 D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\xampp\htdocs...', Array)
+#3 D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\log\Logger.php(166): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2014-12-05 13:54:21 [127.0.0.1][-][j34dv4e7u8vqj135u55pcm9935][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    '_ga' => 'GA1.1.54924247.1416566351'
+    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
+    'PHPSESSID' => 'j34dv4e7u8vqj135u55pcm9935'
+    '_csrf' => '37f04dbc66f8f51b477652cc5762fc203fbe44fa53185334e9715224690ece1as:32:\"IDkZXkSEzrjwPubPQVIHI0Xbq5rI3W7g\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=j34dv4e7u8vqj135u55pcm9935; _csrf=37f04dbc66f8f51b477652cc5762fc203fbe44fa53185334e9715224690ece1as%3A32%3A%22IDkZXkSEzrjwPubPQVIHI0Xbq5rI3W7g%22%3B'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin;D:\\git\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_HOST' => 'ÇØ³å³å'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/keke/frontend/web/index.php'
+    'REMOTE_PORT' => '57335'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_URI' => '/keke/frontend/web/index.php?r=index/index'
+    'SCRIPT_NAME' => '/keke/frontend/web/index.php'
+    'PHP_SELF' => '/keke/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417784061.655
+    'REQUEST_TIME' => 1417784061
+]
+2014-12-05 14:11:36 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 23429 bytes' 
+
+in D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\xampp\htdocs...', 86, Array)
+#1 D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD??a...')
+#2 D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\xampp\htdocs...', Array)
+#3 D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\log\Logger.php(166): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2014-12-05 14:11:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'renwu'
+]
+
+$_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    '_ga' => 'GA1.1.54924247.1416566351'
+    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
+    'PHPSESSID' => 'j34dv4e7u8vqj135u55pcm9935'
+    '_csrf' => '37f04dbc66f8f51b477652cc5762fc203fbe44fa53185334e9715224690ece1as:32:\"IDkZXkSEzrjwPubPQVIHI0Xbq5rI3W7g\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=j34dv4e7u8vqj135u55pcm9935; _csrf=37f04dbc66f8f51b477652cc5762fc203fbe44fa53185334e9715224690ece1as%3A32%3A%22IDkZXkSEzrjwPubPQVIHI0Xbq5rI3W7g%22%3B'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin;D:\\git\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_HOST' => 'ÇØ³å³å'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/keke/frontend/web/index.php'
+    'REMOTE_PORT' => '57574'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=renwu'
+    'REQUEST_URI' => '/keke/frontend/web/index.php?r=renwu'
+    'SCRIPT_NAME' => '/keke/frontend/web/index.php'
+    'PHP_SELF' => '/keke/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417785096.491
+    'REQUEST_TIME' => 1417785096
+]
+2014-12-06 00:46:51 [127.0.0.1][][tm6jf7bnphrd3fr0asci1a1m03][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 23429 bytes' 
+
+in D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\xampp\htdocs...', 86, Array)
+#1 D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD??a...')
+#2 D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\xampp\htdocs...', Array)
+#3 D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\log\Logger.php(166): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2014-12-06 00:46:51 [127.0.0.1][][tm6jf7bnphrd3fr0asci1a1m03][info][application] $_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    '_ga' => 'GA1.1.54924247.1416566351'
+    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/keke/frontend/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin;D:\\git\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_HOST' => 'ÇØ³å³å'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/keke/frontend/web/index.php'
+    'REMOTE_PORT' => '49432'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/keke/frontend/web/'
+    'SCRIPT_NAME' => '/keke/frontend/web/index.php'
+    'PHP_SELF' => '/keke/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417823211.712
+    'REQUEST_TIME' => 1417823211
+]
+2014-12-06 00:52:27 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'oller' (T_STRING), expecting '{'' in D:\xampp\htdocs\keke\frontend\controllers\RenwuController.php:22
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 00:52:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'renwu'
+]
+
+$_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    '_ga' => 'GA1.1.54924247.1416566351'
+    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
+    'PHPSESSID' => 'tm6jf7bnphrd3fr0asci1a1m03'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=tm6jf7bnphrd3fr0asci1a1m03'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin;D:\\git\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_HOST' => 'ÇØ³å³å'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/keke/frontend/web/index.php'
+    'REMOTE_PORT' => '49503'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=renwu'
+    'REQUEST_URI' => '/keke/frontend/web/index.php?r=renwu'
+    'SCRIPT_NAME' => '/keke/frontend/web/index.php'
+    'PHP_SELF' => '/keke/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417823547.108
+    'REQUEST_TIME' => 1417823547
+]
+2014-12-06 00:52:27 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 23429 bytes' 
+
+in D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\xampp\htdocs...', 86, Array)
+#1 D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD??a...')
+#2 D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\xampp\htdocs...', Array)
+#3 D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\log\Logger.php(166): yii\log\Dispatcher->dispatch(Array, true)
+#6 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\ErrorHandler.php(184): yii\log\Logger->flush(true)
+#7 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#8 {main}
+2014-12-06 00:52:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'renwu'
+]
+
+$_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    '_ga' => 'GA1.1.54924247.1416566351'
+    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
+    'PHPSESSID' => 'tm6jf7bnphrd3fr0asci1a1m03'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=tm6jf7bnphrd3fr0asci1a1m03'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin;D:\\git\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_HOST' => 'ÇØ³å³å'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/keke/frontend/web/index.php'
+    'REMOTE_PORT' => '49503'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=renwu'
+    'REQUEST_URI' => '/keke/frontend/web/index.php?r=renwu'
+    'SCRIPT_NAME' => '/keke/frontend/web/index.php'
+    'PHP_SELF' => '/keke/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417823547.108
+    'REQUEST_TIME' => 1417823547
+]
+2014-12-06 00:52:29 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'oller' (T_STRING), expecting '{'' in D:\xampp\htdocs\keke\frontend\controllers\RenwuController.php:22
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 00:52:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'renwu/index'
+]
+
+$_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    '_ga' => 'GA1.1.54924247.1416566351'
+    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
+    'PHPSESSID' => 'tm6jf7bnphrd3fr0asci1a1m03'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=tm6jf7bnphrd3fr0asci1a1m03'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin;D:\\git\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_HOST' => 'ÇØ³å³å'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/keke/frontend/web/index.php'
+    'REMOTE_PORT' => '49504'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=renwu/index'
+    'REQUEST_URI' => '/keke/frontend/web/index.php?r=renwu/index'
+    'SCRIPT_NAME' => '/keke/frontend/web/index.php'
+    'PHP_SELF' => '/keke/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417823549.409
+    'REQUEST_TIME' => 1417823549
+]
+2014-12-06 00:52:29 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 23429 bytes' 
+
+in D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\xampp\htdocs...', 86, Array)
+#1 D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD??a...')
+#2 D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\xampp\htdocs...', Array)
+#3 D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\log\Logger.php(166): yii\log\Dispatcher->dispatch(Array, true)
+#6 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\ErrorHandler.php(184): yii\log\Logger->flush(true)
+#7 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#8 {main}
+2014-12-06 00:52:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'renwu/index'
+]
+
+$_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    '_ga' => 'GA1.1.54924247.1416566351'
+    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
+    'PHPSESSID' => 'tm6jf7bnphrd3fr0asci1a1m03'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=tm6jf7bnphrd3fr0asci1a1m03'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin;D:\\git\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_HOST' => 'ÇØ³å³å'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/keke/frontend/web/index.php'
+    'REMOTE_PORT' => '49504'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=renwu/index'
+    'REQUEST_URI' => '/keke/frontend/web/index.php?r=renwu/index'
+    'SCRIPT_NAME' => '/keke/frontend/web/index.php'
+    'PHP_SELF' => '/keke/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417823549.409
+    'REQUEST_TIME' => 1417823549
+]
+2014-12-06 00:53:58 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Contoller' not found' in D:\xampp\htdocs\keke\frontend\controllers\RenwuController.php:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 00:53:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'renwu/index'
+]
+
+$_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    '_ga' => 'GA1.1.54924247.1416566351'
+    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
+    'PHPSESSID' => 'tm6jf7bnphrd3fr0asci1a1m03'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=tm6jf7bnphrd3fr0asci1a1m03'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin;D:\\git\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_HOST' => 'ÇØ³å³å'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/keke/frontend/web/index.php'
+    'REMOTE_PORT' => '49526'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=renwu/index'
+    'REQUEST_URI' => '/keke/frontend/web/index.php?r=renwu/index'
+    'SCRIPT_NAME' => '/keke/frontend/web/index.php'
+    'PHP_SELF' => '/keke/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417823637.979
+    'REQUEST_TIME' => 1417823637
+]
+2014-12-06 00:53:58 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 23429 bytes' 
+
+in D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php:86
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'D:\xampp\htdocs...', 86, Array)
+#1 D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php(86): unserialize('<<<<<<< HEAD??a...')
+#2 D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php(61): yii\debug\LogTarget->updateIndexFile('D:\xampp\htdocs...', Array)
+#3 D:\xampp\htdocs\keke\vendor\yiisoft\yii2-debug\LogTarget.php(112): yii\debug\LogTarget->export(Array)
+#4 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\log\Dispatcher.php(183): yii\debug\LogTarget->collect(Array, true)
+#5 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\log\Logger.php(166): yii\log\Dispatcher->dispatch(Array, true)
+#6 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\ErrorHandler.php(184): yii\log\Logger->flush(true)
+#7 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#8 {main}
+2014-12-06 00:53:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'renwu/index'
+]
+
+$_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    '_ga' => 'GA1.1.54924247.1416566351'
+    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
+    'PHPSESSID' => 'tm6jf7bnphrd3fr0asci1a1m03'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=tm6jf7bnphrd3fr0asci1a1m03'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin;D:\\git\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_HOST' => 'ÇØ³å³å'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/keke/frontend/web/index.php'
+    'REMOTE_PORT' => '49526'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=renwu/index'
+    'REQUEST_URI' => '/keke/frontend/web/index.php?r=renwu/index'
+    'SCRIPT_NAME' => '/keke/frontend/web/index.php'
+    'PHP_SELF' => '/keke/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417823637.979
+    'REQUEST_TIME' => 1417823637
+]
+2014-12-06 00:54:56 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: new' in D:\xampp\htdocs\keke\frontend\controllers\RenwuController.php:29
+Stack trace:
+#0 D:\xampp\htdocs\keke\frontend\controllers\RenwuController.php(29): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\xampp\htdocs...', 29, Array)
+#1 [internal function]: frontend\controllers\RenwuController->actionIndex()
+#2 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#5 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('renwu/index', Array)
+#6 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\xampp\htdocs\keke\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2014-12-06 00:54:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'renwu/index'
+]
+
+$_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    '_ga' => 'GA1.1.54924247.1416566351'
+    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
+    'PHPSESSID' => 'tm6jf7bnphrd3fr0asci1a1m03'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=tm6jf7bnphrd3fr0asci1a1m03'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin;D:\\git\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_HOST' => 'ÇØ³å³å'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/keke/frontend/web/index.php'
+    'REMOTE_PORT' => '49539'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=renwu/index'
+    'REQUEST_URI' => '/keke/frontend/web/index.php?r=renwu/index'
+    'SCRIPT_NAME' => '/keke/frontend/web/index.php'
+    'PHP_SELF' => '/keke/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417823696.863
+    'REQUEST_TIME' => 1417823696
+]
+2014-12-06 01:03:16 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\WeikeUser::c_id' in D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('c_id')
+#1 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Model.php(898): yii\db\BaseActiveRecord->__get('c_id')
+#2 D:\xampp\htdocs\keke\frontend\controllers\RenwuController.php(30): yii\base\Model->offsetGet('c_id')
+#3 [internal function]: frontend\controllers\RenwuController->actionIndex()
+#4 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('renwu/index', Array)
+#8 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\keke\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2014-12-06 01:03:16 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'renwu/index'
+]
+
+$_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    '_ga' => 'GA1.1.54924247.1416566351'
+    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
+    'PHPSESSID' => 'tm6jf7bnphrd3fr0asci1a1m03'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=tm6jf7bnphrd3fr0asci1a1m03'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin;D:\\git\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_HOST' => 'ÇØ³å³å'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/keke/frontend/web/index.php'
+    'REMOTE_PORT' => '49783'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=renwu/index'
+    'REQUEST_URI' => '/keke/frontend/web/index.php?r=renwu/index'
+    'SCRIPT_NAME' => '/keke/frontend/web/index.php'
+    'PHP_SELF' => '/keke/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417824196.574
+    'REQUEST_TIME' => 1417824196
+]
+2014-12-06 01:03:49 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\WeikeTask::user_name' in D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('user_name')
+#1 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Model.php(898): yii\db\BaseActiveRecord->__get('user_name')
+#2 D:\xampp\htdocs\keke\frontend\controllers\RenwuController.php(30): yii\base\Model->offsetGet('user_name')
+#3 [internal function]: frontend\controllers\RenwuController->actionIndex()
+#4 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('renwu/index', Array)
+#8 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\keke\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2014-12-06 01:03:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'renwu/index'
+]
+
+$_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    '_ga' => 'GA1.1.54924247.1416566351'
+    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
+    'PHPSESSID' => 'tm6jf7bnphrd3fr0asci1a1m03'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=tm6jf7bnphrd3fr0asci1a1m03'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin;D:\\git\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_HOST' => 'ÇØ³å³å'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/keke/frontend/web/index.php'
+    'REMOTE_PORT' => '49799'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=renwu/index'
+    'REQUEST_URI' => '/keke/frontend/web/index.php?r=renwu/index'
+    'SCRIPT_NAME' => '/keke/frontend/web/index.php'
+    'PHP_SELF' => '/keke/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417824229.341
+    'REQUEST_TIME' => 1417824229
+]
+2014-12-06 01:11:15 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\WeikeTask::title' in D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('title')
+#1 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Model.php(898): yii\db\BaseActiveRecord->__get('title')
+#2 D:\xampp\htdocs\keke\frontend\controllers\RenwuController.php(30): yii\base\Model->offsetGet('title')
+#3 [internal function]: frontend\controllers\RenwuController->actionIndex()
+#4 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('renwu/index', Array)
+#8 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\keke\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2014-12-06 01:11:15 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'renwu/index'
+]
+
+$_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    '_ga' => 'GA1.1.54924247.1416566351'
+    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
+    'PHPSESSID' => 'tm6jf7bnphrd3fr0asci1a1m03'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=tm6jf7bnphrd3fr0asci1a1m03'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin;D:\\git\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_HOST' => 'ÇØ³å³å'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/keke/frontend/web/index.php'
+    'REMOTE_PORT' => '49856'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=renwu/index'
+    'REQUEST_URI' => '/keke/frontend/web/index.php?r=renwu/index'
+    'SCRIPT_NAME' => '/keke/frontend/web/index.php'
+    'PHP_SELF' => '/keke/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417824675.866
+    'REQUEST_TIME' => 1417824675
+]
+2014-12-06 01:11:41 [127.0.0.1][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\WeikeTask::xuqiu' in D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\BaseActiveRecord.php(246): yii\base\Component->__get('xuqiu')
+#1 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Model.php(898): yii\db\BaseActiveRecord->__get('xuqiu')
+#2 D:\xampp\htdocs\keke\frontend\controllers\RenwuController.php(30): yii\base\Model->offsetGet('xuqiu')
+#3 [internal function]: frontend\controllers\RenwuController->actionIndex()
+#4 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#7 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('renwu/index', Array)
+#8 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\xampp\htdocs\keke\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2014-12-06 01:11:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'renwu/index'
+]
+
+$_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    '_ga' => 'GA1.1.54924247.1416566351'
+    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
+    'PHPSESSID' => 'tm6jf7bnphrd3fr0asci1a1m03'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=tm6jf7bnphrd3fr0asci1a1m03'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin;D:\\git\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_HOST' => 'ÇØ³å³å'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/keke/frontend/web/index.php'
+    'REMOTE_PORT' => '49863'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=renwu/index'
+    'REQUEST_URI' => '/keke/frontend/web/index.php?r=renwu/index'
+    'SCRIPT_NAME' => '/keke/frontend/web/index.php'
+    'PHP_SELF' => '/keke/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417824701.451
+    'REQUEST_TIME' => 1417824701
+]
+2014-12-06 01:18:42 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where x.state=3' at line 1' in D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\Command.php:819
+Stack trace:
+#0 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\Command.php(819): PDOStatement->execute()
+#1 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\Command.php(350): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 D:\xampp\htdocs\keke\frontend\controllers\RenwuController.php(26): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\RenwuController->actionIndex()
+#6 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#9 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('renwu/index', Array)
+#10 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\keke\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where x.state=3' at line 1
+The SQL being executed was: select * from weike_task t ,xuqiu x where t.task_id=x.task_id where x.state=3' in D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Schema->convertException(Object(PDOException), 'select * from w...')
+#1 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\Command.php(350): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 D:\xampp\htdocs\keke\frontend\controllers\RenwuController.php(26): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\RenwuController->actionIndex()
+#6 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#9 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('renwu/index', Array)
+#10 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\keke\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where x.state=3' at line 1
+)
+
+2014-12-06 01:18:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'renwu/index'
+]
+
+$_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    '_ga' => 'GA1.1.54924247.1416566351'
+    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
+    'PHPSESSID' => 'tm6jf7bnphrd3fr0asci1a1m03'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=tm6jf7bnphrd3fr0asci1a1m03'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin;D:\\git\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_HOST' => 'ÇØ³å³å'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/keke/frontend/web/index.php'
+    'REMOTE_PORT' => '49917'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=renwu/index'
+    'REQUEST_URI' => '/keke/frontend/web/index.php?r=renwu/index'
+    'SCRIPT_NAME' => '/keke/frontend/web/index.php'
+    'PHP_SELF' => '/keke/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417825122.649
+    'REQUEST_TIME' => 1417825122
+]
+2014-12-06 01:19:13 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where xuqiu.state=3' at line 1' in D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\Command.php:819
+Stack trace:
+#0 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\Command.php(819): PDOStatement->execute()
+#1 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\Command.php(350): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 D:\xampp\htdocs\keke\frontend\controllers\RenwuController.php(26): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\RenwuController->actionIndex()
+#6 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#9 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('renwu/index', Array)
+#10 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\keke\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where xuqiu.state=3' at line 1
+The SQL being executed was: select * from weike_task t ,xuqiu x where t.task_id=x.task_id where xuqiu.state=3' in D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\Schema.php:532
+Stack trace:
+#0 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\Command.php(834): yii\db\Schema->convertException(Object(PDOException), 'select * from w...')
+#1 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\Command.php(350): yii\db\Command->queryInternal('fetchAll', NULL)
+#2 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#3 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#4 D:\xampp\htdocs\keke\frontend\controllers\RenwuController.php(26): yii\db\ActiveQuery->all()
+#5 [internal function]: frontend\controllers\RenwuController->actionIndex()
+#6 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#9 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('renwu/index', Array)
+#10 D:\xampp\htdocs\keke\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\xampp\htdocs\keke\frontend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where xuqiu.state=3' at line 1
+)
+
+2014-12-06 01:19:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'renwu/index'
+]
+
+$_COOKIE = [
+    'AJSTAT_ok_times' => '1'
+    '_ga' => 'GA1.1.54924247.1416566351'
+    '__zpspc' => '9.2.1416813744.1416814460.10#4|||||#'
+    'PHPSESSID' => 'tm6jf7bnphrd3fr0asci1a1m03'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'AJSTAT_ok_times=1; _ga=GA1.1.54924247.1416566351; __zpspc=9.2.1416813744.1416814460.10%234%7C%7C%7C%7C%7C%23; PHPSESSID=tm6jf7bnphrd3fr0asci1a1m03'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;D:\\xampp\\php\\php.exe;D:\\Program Files\\Java\\jdk1.8.0_25\\bin;D:\\Program Files\\Java\\jdk1.8.0_25\\jre\\bin;D:\\git\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win32) OpenSSL/1.0.1e PHP/5.5.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_HOST' => 'ÇØ³å³å'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/xampp/htdocs/'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/xampp/htdocs/keke/frontend/web/index.php'
+    'REMOTE_PORT' => '49924'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=renwu/index'
+    'REQUEST_URI' => '/keke/frontend/web/index.php?r=renwu/index'
+    'SCRIPT_NAME' => '/keke/frontend/web/index.php'
+    'PHP_SELF' => '/keke/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417825153.369
+    'REQUEST_TIME' => 1417825153
+]

@@ -1,7 +1,7 @@
 <?php
 
 namespace app\models;
-
+use app\models\WeikeTask;
 use Yii;
 
 /**
@@ -37,7 +37,11 @@ class Xuqiu extends \yii\db\ActiveRecord
             [['title', 'file'], 'string', 'max' => 20]
         ];
     }
-
+    public function getWeikeTask()
+    {
+        // Customer has_many Order via Order.customer_id -> id
+        return $this->hasOne(WeikeTask::className(), ['task_id' => 'task_id']);
+    }
     /**
      * @inheritdoc
      */
