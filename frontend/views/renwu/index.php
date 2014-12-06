@@ -349,20 +349,31 @@
                                                     	<li class="w2 cf60 bounty font14b">
                                                           	<?php echo $v['danjia']?>元                                                         </li>
                                                         <li class="w4 info">
-                                                            <a href="index.php?do=task&task_id=57" title="进驻商场&企业生活馆餐饮店的竞标报告" class="font14 task_title">进驻商场&企业生活馆餐饮店的竞标报告</a>
+                                                            <a href="index.php?do=task&task_id=57" title="<?php echo $v['xuqiu']['title']?>" class="font14 task_title"><?php echo $v['xuqiu']['title']?></a>
                                                             <!-- <span class="block m_h">[#57]</span> -->
                                                                                                                                                                                	                                                                   
     </li>
                                                    
                                                         
                                                         <li class="mode"> 
-                                                            <span class="block">计件悬赏<br/></span>
+                                                            <span class="block"><?php echo $v['c_id']?><br/></span>
                                                         </li>
                                                         <li class="count">
                                                             <span title="关注 / 交稿">5 / 3</span>
                                                         </li>
                                                         <li class="status w2">
-                                                        已结束</span>
+                                                            <span>
+                                                        <?php
+                                                            if($v['xuqiu']['state']==4){
+                                                                echo '以结束';
+                                                                
+                                                            }else{
+                                                                //echo date("Y-m-d H:i:s",$v['end_time']);
+                                                                echo date("H小时i分钟",$v['end_time']-time()).'后投稿截止';
+                                                                
+                                                            }
+                                                        ?>
+                                                            </span>
                                                     </li>
                                                     </ul>
                                                     <div class="clear">

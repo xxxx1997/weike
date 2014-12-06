@@ -5,6 +5,7 @@ use yii\base\Model;
 use Yii;
 use app\models\WeikeUser;
 use app\models\Xuqiu;
+use app\models\TaskClass;
 /**
  * This is the model class for table "weike_task".
  *
@@ -50,7 +51,11 @@ class WeikeTask extends \yii\db\ActiveRecord
         // Customer has_many Order via Order.customer_id -> id
         return $this->hasOne(xuqiu::className(), ['task_id' => 'task_id']);
     }
-    
+        public function getTaskClass()
+    {
+        // Customer has_many Order via Order.customer_id -> id
+        return $this->hasOne(TaskClass::className(), ['c_id' => 'c_id']);
+    }
     /**
      * @inheritdoc
      */

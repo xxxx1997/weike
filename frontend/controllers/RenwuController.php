@@ -25,7 +25,14 @@ class RenwuController extends Controller{
         
         $list['list']=WeikeTask::findBySql('select * from weike_task t ,xuqiu x where t.task_id=x.task_id and x.state=3')->all();
         // echo md5('admin');
-        
+        foreach($list['list'] as $k=>$v){
+           // var_dump($v['task_id']);
+                $a=\app\models\TaskClass::findOne($v['c_id']);
+                $list['list'][$k]['c_id'] = $a['c_name'];
+                // =$a['c_name'];
+             
+            
+        }
         return $this->render('index',$list);
     }
 }
