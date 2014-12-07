@@ -22,6 +22,7 @@ class RenwuController extends Controller{
     
     public function actionIndex(){
         
+        $list['indus']=  WeikeIndus::find()->where('indus_pid=0')->all();
         
         $list['list']=WeikeTask::findBySql('select * from weike_task t ,xuqiu x where t.task_id=x.task_id and x.state=3')->all();
         // echo md5('admin');

@@ -34,22 +34,9 @@
                                 任务分类                            </dt>
                             <dd class="grid_21">
                                 <a href="index.php?do=task_list&path=B3"    class='selected' >全部 </a>
-                                <a href="index.php?do=task_list&path=A441B3" >品牌设计</a>
-                                <a href="index.php?do=task_list&path=A2B3" >网站开发</a>
-                                <a href="index.php?do=task_list&path=A201B3" >创意祝福</a>
-                                <a href="index.php?do=task_list&path=A249B3" >网游服务</a>
-                                <a href="index.php?do=task_list&path=A3B3" >文案写作</a>
-                                <a href="index.php?do=task_list&path=A335B3" >建筑/装修</a>
-                                <a href="index.php?do=task_list&path=A211B3" >头脑风暴</a>
-                                <a href="index.php?do=task_list&path=A350B3" >照片美化/编辑</a>
-                                <a href="index.php?do=task_list&path=A234B3" >法律服务</a>
-                                <a href="index.php?do=task_list&path=A160B3" >起名取名</a>
-                                <a href="index.php?do=task_list&path=A357B3" >影视/配音/歌词</a>
-                                <a href="index.php?do=task_list&path=A192B3" >生活服务</a>
-                                <a href="index.php?do=task_list&path=A218B3" >移动应用</a>
-                                <a href="index.php?do=task_list&path=A240B3" >招聘找人</a>
-                                <a href="index.php?do=task_list&path=A121B3" >软件开发</a>
-                                 
+                                <?php foreach ($indus as $v): ?>
+                                <a href="index.php?do=task_list&path=A441B3" ><?php echo $v['indus_name']?></a>
+                                <?php endforeach;?>
                             </dd>
                         </dl>
                         
