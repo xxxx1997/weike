@@ -17,4 +17,3 @@ LANG       = 'cn',
     INDEX      = 'index',
     CHARSET    = "utf-8";
 </script>
-1223

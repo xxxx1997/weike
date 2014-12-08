@@ -12,7 +12,7 @@ return [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
-        'user' => [
+            'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
         ],
